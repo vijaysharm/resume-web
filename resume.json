@@ -15,6 +15,27 @@
 		"label": "Professional Experience",
 		"companies": [
 			{
+				"location": Signiant,
+				"address": "Kanata, Ontario, Canada",
+				"positions": 
+				[
+					{
+						"name": "Java Software Developer (Cloud Applications)",
+						"start_date": "February 2014",
+						"end_date": "present",
+						"responsibilities": 
+						[
+							"Develop Cloud-based solutions that extend the reach of Signiant products beyond traditional enterprise environments",
+							"Implement product features from the user interface through to back end web services, using technologies such as Java, JavaScript, jQuery, SQL, and NoSQL solutions",
+							"Design system components to align with our high performance system architecture",
+							"Implement interfaces among system components and with external systems, for example REST.",
+							"Work effectively within our Agile software development team"
+						]
+					}
+				],
+				"technologies": ["BackboneJS", "Java", "Amazon Web Services", "Elastic Beanstalk", "S3", "SQS", "SNS", "Tomcat"]
+			},
+			{
 				"location": "Intelerad Medical Systems",
 				"address": "Montreal, Quebec Canada",
 				"positions":
@@ -22,7 +43,7 @@
 					{
 						"name": "Senior Member of R&D",
 						"start_date": "January 2011",
-						"end_date": "present",
+						"end_date": "February 2014",
 						"responsibilities":
 						[
 							"Lead the development of the company's new flagship online clinical image viewer using latest HTML5 technologies to develop a high performance viewer targeted for the web and mobile devices",
