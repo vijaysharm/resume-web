@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+</html>
+<html>
+<head>
+	<title>Vijay Sharma</title>
+	<script src="jquery.js"></script>
+	<script src="handlebars.js"></script>
+	<script src="resume.js"></script>
+	<link rel="stylesheet" type="text/css" href="normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<script id="title" type="text/x-handlebars-template">
+		<div class="title section">
+			<h1>{{title}}</h1>
+			{{#each address}}
+				<div>{{this}}</div>
+			{{/each}}
+		</div>
+	</script>
+
+	<script id="experience" type="text/x-handlebars-template">
+		<div>
+			<h3 class="section-header">{{label}}</h3>
+			{{#each companies}}
+			<div>
+				<div class="padding-bottom-2 bold space-between">
+					<div>{{location}}</div>
+					<div>{{address}}</div>
+				</div>
+				{{#each positions}}
+					<div class="padding-bottom-4 italic space-between">
+						<div>{{name}}</div>
+						<div>{{start_date}} - {{end_date}}</div>
+					</div>
+					<ul class="items">
+					{{#each responsibilities}}
+						<li>{{this}}</li>
+					{{/each}}
+						<li><span class=bold>Technologies: </span>{{flat technologies}}</li>
+					</ul>
+				{{/each}}
+			</div>
+			{{/each}}
+		</div>
+	</script>
+	
+	<script id="education" type="text/x-handlebars-template">
+		<div>
+			<h3 class="section-header">{{label}}</h3>
+			{{#each schools}}
+			<div>
+				<div class="padding-bottom-2 bold space-between">
+					<div>{{location}}</div>
+					<div>{{address}}</div>
+				</div>
+				<div class="padding-bottom-4 italic space-between">
+					<div>{{name}}</div>
+					<div>{{end_date}}</div>
+				</div>
+				<ul class="items">
+				{{#each responsibilities}}
+					<li>{{this}}</li>
+				{{/each}}
+				</ul>
+			</div>
+			{{/each}}
+		</div>
+	</script>
+
+	<script id="items" type="text/x-handlebars-template">
+		<div>
+			<h3 class="section-header">{{label}}</h3>
+			<ul class="items">
+			{{#each items}}
+				<li>{{title}}</li>
+			{{/each}}
+			</ul>
+		</div>
+	</script>
+
+	<script id="flat-items" type="text/x-handlebars-template">
+		<div>
+			<h3 class="section-header">{{label}}</h3>
+			<ul class="items">
+				<li>{{flat items}}</li>
+			</ul>
+		</div>
+	</script>
+	
+	<div id="main"/>
+</body>
+</html>

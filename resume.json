@@ -1,0 +1,357 @@
+{
+	"title": "Vijay Sharma",
+	"name": "Vijay Sharma",
+	"address" : [
+		"384 Crown Ridge Dr",
+		"Kanata, Ontario, K2M 3A4 Canada",
+		"(514) 690 8458",
+		"vijay.sharm@gmail.com"
+	],
+	"objective": {
+		"label": "Objective",
+		"text": "To obtain a position as a software architect that will enable me to use my diverse experience, educational background, and ability to work well with people in order to deliver powerful quantitative and feature rich software to the end-user."
+	},
+	"professionalexperience": {
+		"label": "Professional Experience",
+		"companies": [
+			{
+				"location": "Intelerad Medical Systems",
+				"address": "Montreal, Quebec Canada",
+				"positions":
+				[
+					{
+						"name": "Senior Member of R&D",
+						"start_date": "January 2011",
+						"end_date": "present",
+						"responsibilities":
+						[
+							"Lead the development of the company's new flagship online clinical image viewer using latest HTML5 technologies to develop a high performance viewer targeted for the web and mobile devices",
+							"Wrote, managed and peer-reviewed requirements, design and test plan documents for all team projects, working closely with stakeholders to ensure both company's best interest, and the integrity of the software",
+							"Architected new advanced visualization 3D application to integrate into large enterprise code base, working closely with UI designers to develop cutting edge, feature rich applications",
+							"Mentored new employees to adapt to company's culture, in a lead position on projects, and spearheading new software development practices",
+							"Applied Agile methodologies to lead project sprints using Jira to track progress"
+						],
+						"technologies": ["BackboneJS", "HandlebarsJS", "AngularJS", "EmberJS", "Twitter Bootstrap", "GWT", "Tomcat", "Jersey", "Mockito", "PostgreSQL"]
+					},
+					{
+						"name": "Intermediate Member of R&D",
+						"start_date": "Decemnber 2009",
+						"end_date": "January 2011",
+						"responsibilities":
+						[
+							"Worked in an agile team and managed projects from design through to deployment stages",
+							"Researched new open-source technologies to use in both client and server applications",
+							"Developed client-server based desktop applications in Java to meet the our client's workflow needs",
+							"Frequently volunteered to provide in-house demonstrations of new software modules to other departments, including field-analysts, project managers and stakeholders",
+							"Awarded for going \"Beyond the Call of Duty\" by providing expert opinion and hands-on aid to all projects, including projects outside my team"
+						],
+						"technologies": ["Java", "JNI", "Swing", "XMPP", "Smack", "Tigase", "Hessian", "Guice", "Guava", "Eclipse", "JUnit", "Mercurial", "PostgreSQL"]
+					},
+					{
+						"name": "Junior Member of R&D",
+						"start_date": "September 2007",
+						"end_date": "December 2009",
+						"responsibilities":
+						[
+							"Developed and maintained tight integrations with third party partners in with short turn-around time",
+							"Frequently communicated with clients to develop requirements for new software features",
+							"First-level contact for support for troubleshooting client issues, which included off-hour support for clients in Australia",
+							"Received the \"Culture Creature\" award for quickly adapting into company ecosystem, and upholding the software's integrity, while operating at high standards"
+						],
+						"technologies": ["Java", "Swing", "C/C++", "MFC", "CVS", "STL", "Boost", "Python"]
+					}			
+				]
+			},
+			{
+				"location": "Robarts Research Imaging Institute",
+				"address": "London, Ontario Canada",
+				"positions":
+				[
+					{
+						"name": "Research Assistant",
+						"start_date": "September 2005",
+						"end_date": "September 2007",
+						"responsibilities":
+						[
+							"Implemented stereo reconstruction and image segmentation using OpenCV",
+							"Developed and integrated segmentation modules with VTK/ITK in to in-house image viewer",
+							"Ported several 2D segmentation and 3D reconstruction code written in Python in to C/C++"
+						],
+						"technologies": ["C/C++", "Python", "Matlab", "Linux", "OpenCV", "VTK/ITK"]
+					}
+				]
+			},
+			{
+				"location": "Concordia University",
+				"address": "Montreal, Quebec Canada",
+				"positions":
+				[
+					{
+						"name": "Research Assistant",
+						"start_date": "January 2004",
+						"end_date": "Sepetember 2005",
+						
+						"responsibilities":
+						[
+							"Researched new background subtraction algorithms for surveillance videos",
+							"Implemented background subtraction algorithms in C/C++ for in-house video processing library",
+							"Implemented several video format (YUV to RGB) conversion algorithms for in-house library",
+							"Taught numerous classes on Object-Oriented design and development using Java and C/C++"
+						],
+						"technologies": ["Java", "C/C++", "Linux"]
+					}
+				]
+			},
+			{
+				"location": "Nuance Communications",
+				"address": "Montreal, Quebec Canada",
+				"positions":
+				[
+					{
+						"name": "Quality Assurance Engineer (Internship)",
+						"start_date": "May 2003",
+						"end_date": "August 2003",
+						
+						"responsibilities":
+						[
+							"Engineered integration and system test suites for Voice Application Server in Java and XML",
+							"Developed and maintained test plans documents based on business and software requirements"
+						],
+						"technologies": ["Java", "Perl", "XHTML", "CSS2", "JavaScript", "Linux"]
+					}
+				]
+			},
+			{
+				"location": "Speechworks",
+				"address": "Montreal, Quebec Canada",
+				"positions":
+				[
+					{
+						"name": "Embedded Systems Developer (Internship)",
+						"start_date": "August 2002",
+						"end_date": "December 2002",
+						
+						"responsibilities":
+						[
+							"Developed client applications using proprietary speech recognition engine for Windows Mobile",
+							"Enhanced embedded speech recognition products to meet their functional requirements"
+						],
+						"technologies": ["C/C++", "Bash Scripting", "Perl", "Win32", "Visual Studio"]
+					}
+				]
+			}			
+		]
+	},
+	"education":
+	{
+		"label": "Education",
+		"schools":
+		[
+			{
+				"location": "The University of Western Ontario",
+				"address": "London, Ontario Canada",
+
+				"name": "Master of Engineering Sciences",
+				"start_date": "September 2005",
+				"end_date": "September 2007",
+				"responsibilities":
+				[
+					"M.E.Sc. in Biomedical Engineering",
+					"Thesis: Full 3D Integration of Stereo Laparoscope and Freehand Ultrasound Data",
+					"Advisor: Dr. Terry M. Peters Ph.D. FCCPM"
+				]
+			},
+			{
+				"name": "Bachelor of Electrical and Computer Engineering",
+				"start_date": "September 2001",
+				"end_date": "May 2005",
+				"location": "Concordia University",
+				"address": "Montreal, Quebec Canada",
+				"responsibilities":
+				[
+					"GPA: 4.02/4.30",
+					"Gold Medal Recipient as Top Graduating Student in Computer Engineering",
+					"Graduated from the Concordia University Cooperative Studies Program"
+				]
+			}
+		]
+	},
+	"techical_expertise":
+	{
+		"label": "Technical Expertise",
+		"description": ""
+	},
+	"skills":
+	{
+		"label": "Skills",
+		"items":
+		[
+			{
+				"title": "Programming",
+				"items":
+				[
+					"Java",
+					"C/C++",
+					"HTML5/CSS3/Javascript",
+					"Python",
+					"Perl",
+					"Matlab",
+					"SQL"
+				]
+			},
+			{
+				"title": "Applications",
+				"items":
+				[
+					"Eclipse",
+					"Ant",
+					"Maven",
+					"Visual Studio",
+					"GCC/Make"
+				]
+			},
+			{
+				"title": "Libraries",
+				"items":
+				[
+					"Swing",
+					"Guava",
+					"OpenGL",
+					"Jabber",
+					"Hibernate",
+					"Hessian",
+                    "STL",
+                    "Boost",
+                    "MFC",
+                    "VTK/ITK",
+                    "OpenCV"
+				]
+			},
+			{
+				"title": "Version Control",
+				"items":
+				[
+					"Mercurial",
+					"CVS",
+					"Subversion"
+				]
+			},
+			{
+				"title": "Operating Systems",
+				"items":
+				[
+					"Android",
+					"iOS",
+					"Windows",
+					"Red Hat/Ubuntu/Centos 5",
+					"Mac OS X"
+				]
+			},
+			{
+				"title": "Databases",
+				"items":
+				[
+					"MySQL",
+					"Postgres",
+					"Sybase"
+				]
+			}		
+		]
+	},
+	"awards":
+	{
+		"label": "Awards and Honors",
+		"items": [
+			{
+				"title": "Beyond the Call of Duty award at Intelerad Medical Systems",
+				"start_date": "2010",
+				"description": ""
+			},
+			{
+				"title": "Culture Creature award at Intelerad Medical Systems",
+				"start_date": "2009",
+				"description": ""				
+			},
+			{
+				"title": "Western Univeristy Graduate Research Scholarship (WGRS)",
+				"start_date": "2005, 2006",
+				"description": ""				
+			},
+			{
+				"title": "Fonds quebecois de la recherche sur la nature et les technologies (FQRNT)",
+				"start_date": "2005, 2006, 2007",
+				"description": ""				
+			},
+			{
+				"title": "Concordia University Engineering Gold Medal Award for Top Graduate",
+				"start_date": "2005",
+				"description": ""				
+			},
+			{
+				"title": "Final Year Project in Engineering, Third Place",
+				"start_date": "2005",
+				"description": ""				
+			},
+			{
+				"title": "Concordia University Engineering Deans List",
+				"start_date": "2002, 2003, 2005",
+				"description": ""				
+			}
+		]
+	},
+	"languages": 
+	{
+		"label": "Languages",
+		"items": [
+			{
+				"title": "English"
+			},
+			{
+				"title": "French"
+			},
+			{
+				"title": "Hindi"
+			},
+			{
+				"title": "Spanish"
+			}
+		]
+	},
+	"contact":
+	{
+		"label": "Contact Me",
+		"outlet": [
+			{
+				"title": "linkedIn",
+				"image": "http://lunduke.com/linkedin.png",
+				"url": "http://ca.linkedin.com/in/vijaysharm"
+			},
+			{
+				"title": "twitter",
+				"image": "http://lunduke.com/twitter.png",
+				"url": "https://twitter.com/v_sharm"
+			},
+			{
+				"title": "facebook",
+				"image": "http://lunduke.com/facebook.png",
+				"url": "#"
+			},
+			{
+				"title": "googleplus",
+				"image": "http://lunduke.com/googleplus.png",
+				"url": "#"
+			},
+			{
+				"title": "rss",
+				"image": "http://lunduke.com/rss.png",
+				"url": "#"
+			},
+			{
+				"title": "email",
+				"image": "http://lunduke.com/email.png",
+				"url": "#"
+			}
+		]
+	},
+	"resume_version": "1.0"
+}
