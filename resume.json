@@ -9,13 +9,13 @@
 	],
 	"objective": {
 		"label": "Objective",
-		"text": "To obtain a position as a software architect that will enable me to use my diverse experience, educational background, and ability to work well with people in order to deliver powerful quantitative and feature rich software to the end-user."
+		"text": "To obtain a position as a senior software developer for mobile applications that will enable me to use my diverse experience, educational background, and ability to work well with people in order to deliver powerful quantitative and feature rich software to the end-user."
 	},
 	"professionalexperience": {
 		"label": "Professional Experience",
 		"companies": [
 			{
-				"location": Signiant,
+				"location": "Signiant",
 				"address": "Kanata, Ontario, Canada",
 				"positions": 
 				[
@@ -25,15 +25,15 @@
 						"end_date": "present",
 						"responsibilities": 
 						[
-							"Develop Cloud-based solutions that extend the reach of Signiant products beyond traditional enterprise environments",
-							"Implement product features from the user interface through to back end web services, using technologies such as Java, JavaScript, jQuery, SQL, and NoSQL solutions",
-							"Design system components to align with our high performance system architecture",
-							"Implement interfaces among system components and with external systems, for example REST.",
-							"Work effectively within our Agile software development team"
-						]
+							"Developed Cloud and Mobile-based solutions that extend the reach of Signiant products beyond traditional enterprise environments",
+							"Implemented product features from the user interface through to back end web services, using technologies such as Android, iOS, JavaScript, Java, and NoSQL solutions",
+							"Designed system components to align with high performance system architecture",
+							"Implemented interfaces among system components and with external systems, for example REST",
+							"Worked effectively within Agile software development team"
+						],
+						"technologies": ["MarionetteJS", "Java", "Android", "iOS", "AWS Elastic Beanstalk", "Jersey", "DynamoDB"]
 					}
-				],
-				"technologies": ["BackboneJS", "Java", "Amazon Web Services", "Elastic Beanstalk", "S3", "SQS", "SNS", "Tomcat"]
+				]
 			},
 			{
 				"location": "Intelerad Medical Systems",
@@ -50,9 +50,9 @@
 							"Wrote, managed and peer-reviewed requirements, design and test plan documents for all team projects, working closely with stakeholders to ensure both company's best interest, and the integrity of the software",
 							"Architected new advanced visualization 3D application to integrate into large enterprise code base, working closely with UI designers to develop cutting edge, feature rich applications",
 							"Mentored new employees to adapt to company's culture, in a lead position on projects, and spearheading new software development practices",
-							"Applied Agile methodologies to lead project sprints using Jira to track progress"
+							"Developed support for multiple platforms including Mobile-Web, Android and iOS"
 						],
-						"technologies": ["BackboneJS", "HandlebarsJS", "AngularJS", "EmberJS", "Twitter Bootstrap", "GWT", "Tomcat", "Jersey", "Mockito", "PostgreSQL"]
+						"technologies": ["AngularJS", "EmberJS", "GWT", "Android", "iOS", "Tomcat", "PostgreSQL"]
 					},
 					{
 						"name": "Intermediate Member of R&D",

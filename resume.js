@@ -31,8 +31,9 @@ function loadResume( resume ) {
 	page.append(flat_items(resume.languages));
 };
 
-$.ajax({
-	url: 'resume.json',
-	dataType: 'json',
-	success: loadResume
-});
+function error( result ) {
+	console.log('Failed to load resume: ' + result);
+}
+
+$.getJSON('resume.json').success(loadResume).error(error);
+

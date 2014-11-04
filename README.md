@@ -5,6 +5,8 @@ This is my resume application. I decided that I dislike creating and maintaining
 ## Exporting
 You may have to start a web server (try `python -m SimpleHTTPServer 8080` on macs) and then open the page. Then command-P will open a print page in chrome and you can select the print to PDF option and save.
 
+Also, I play around with Custom margins so the resume fits on a given number of pages. The last print was using N0.46, E0.5, S0.46, O0.5
+
 ## TODO
 + Need to support footers for page information
 + Make it look slightly better
