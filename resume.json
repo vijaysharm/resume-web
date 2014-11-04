@@ -15,15 +15,36 @@
 		"label": "Professional Experience",
 		"companies": [
 			{
+				"location": "Younility",
+				"address": "Nepean, Ontario, Canada",
+				"positions":
+				[
+					{
+						"name": "Senior Mobile Engineer",
+						"start_date": "October 2014",
+						"end_date": "present",
+						"responsibilities":
+						[
+							"Boostrapped continous delivery environment",
+							"Rearchitected mobile application to make efficient use of battery life and network bandwidth",
+							"Redesigned end-user experience as part of the company's rebranding",
+							"Managed app deployment to both Apple's App Store and Google's Play Store"
+						],
+						"technologies": ["iOS", "XCode", "Cocoapods", "Android", "Intellij", "Gradle", "Circle CI"]
+					}
+				],
+				"enabled": true
+			},
+			{
 				"location": "Signiant",
 				"address": "Kanata, Ontario, Canada",
-				"positions": 
+				"positions":
 				[
 					{
 						"name": "Java Software Developer (Cloud Applications)",
 						"start_date": "February 2014",
-						"end_date": "present",
-						"responsibilities": 
+						"end_date": "October 2014",
+						"responsibilities":
 						[
 							"Developed Cloud and Mobile-based solutions that extend the reach of Signiant products beyond traditional enterprise environments",
 							"Implemented product features from the user interface through to back end web services, using technologies such as Android, iOS, JavaScript, Java, and NoSQL solutions",
@@ -31,9 +52,10 @@
 							"Implemented interfaces among system components and with external systems, for example REST",
 							"Worked effectively within Agile software development team"
 						],
-						"technologies": ["MarionetteJS", "Java", "Android", "iOS", "AWS Elastic Beanstalk", "Jersey", "DynamoDB"]
+						"technologies": ["MarionetteJS", "Java", "Android", "iOS", "AWS Elastic Beanstalk", "Jersey", "DynamoDB", "Maven"]
 					}
-				]
+				],
+				"enabled": true
 			},
 			{
 				"location": "Intelerad Medical Systems",
@@ -80,8 +102,9 @@
 							"Received the \"Culture Creature\" award for quickly adapting into company ecosystem, and upholding the software's integrity, while operating at high standards"
 						],
 						"technologies": ["Java", "Swing", "C/C++", "MFC", "CVS", "STL", "Boost", "Python"]
-					}			
-				]
+					}
+				],
+				"enabled": true
 			},
 			{
 				"location": "Robarts Research Imaging Institute",
@@ -100,7 +123,8 @@
 						],
 						"technologies": ["C/C++", "Python", "Matlab", "Linux", "OpenCV", "VTK/ITK"]
 					}
-				]
+				],
+				"enabled": true
 			},
 			{
 				"location": "Concordia University",
@@ -111,7 +135,7 @@
 						"name": "Research Assistant",
 						"start_date": "January 2004",
 						"end_date": "Sepetember 2005",
-						
+
 						"responsibilities":
 						[
 							"Researched new background subtraction algorithms for surveillance videos",
@@ -121,7 +145,8 @@
 						],
 						"technologies": ["Java", "C/C++", "Linux"]
 					}
-				]
+				],
+				"enabled": true
 			},
 			{
 				"location": "Nuance Communications",
@@ -132,7 +157,7 @@
 						"name": "Quality Assurance Engineer (Internship)",
 						"start_date": "May 2003",
 						"end_date": "August 2003",
-						
+
 						"responsibilities":
 						[
 							"Engineered integration and system test suites for Voice Application Server in Java and XML",
@@ -140,7 +165,8 @@
 						],
 						"technologies": ["Java", "Perl", "XHTML", "CSS2", "JavaScript", "Linux"]
 					}
-				]
+				],
+				"enabled": true
 			},
 			{
 				"location": "Speechworks",
@@ -151,7 +177,7 @@
 						"name": "Embedded Systems Developer (Internship)",
 						"start_date": "August 2002",
 						"end_date": "December 2002",
-						
+
 						"responsibilities":
 						[
 							"Developed client applications using proprietary speech recognition engine for Windows Mobile",
@@ -159,8 +185,9 @@
 						],
 						"technologies": ["C/C++", "Bash Scripting", "Perl", "Win32", "Visual Studio"]
 					}
-				]
-			}			
+				],
+				"enabled": false
+			}
 		]
 	},
 	"education":
@@ -276,7 +303,7 @@
 					"Postgres",
 					"Sybase"
 				]
-			}		
+			}
 		]
 	},
 	"awards":
@@ -291,36 +318,36 @@
 			{
 				"title": "Culture Creature award at Intelerad Medical Systems",
 				"start_date": "2009",
-				"description": ""				
+				"description": ""
 			},
 			{
 				"title": "Western Univeristy Graduate Research Scholarship (WGRS)",
 				"start_date": "2005, 2006",
-				"description": ""				
+				"description": ""
 			},
 			{
 				"title": "Fonds quebecois de la recherche sur la nature et les technologies (FQRNT)",
 				"start_date": "2005, 2006, 2007",
-				"description": ""				
+				"description": ""
 			},
 			{
 				"title": "Concordia University Engineering Gold Medal Award for Top Graduate",
 				"start_date": "2005",
-				"description": ""				
+				"description": ""
 			},
 			{
 				"title": "Final Year Project in Engineering, Third Place",
 				"start_date": "2005",
-				"description": ""				
+				"description": ""
 			},
 			{
 				"title": "Concordia University Engineering Deans List",
 				"start_date": "2002, 2003, 2005",
-				"description": ""				
+				"description": ""
 			}
 		]
 	},
-	"languages": 
+	"languages":
 	{
 		"label": "Languages",
 		"items": [

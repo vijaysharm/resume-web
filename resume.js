@@ -14,7 +14,7 @@ Handlebars.registerHelper('flat', function(items) {
 
 function loadTemplateById( id ) {
 	return Handlebars.compile($(id).html());
-};
+}
 
 function loadResume( resume ) {
 	var title = loadTemplateById('#title');
@@ -29,11 +29,10 @@ function loadResume( resume ) {
 	page.append(education(resume.education));
 	page.append(items(resume.awards));
 	page.append(flat_items(resume.languages));
-};
+}
 
 function error( result ) {
 	console.log('Failed to load resume: ' + result);
 }
 
-$.getJSON('resume.json').success(loadResume).error(error);
-
+$.getJSON('resume.json').then(loadResume, error);

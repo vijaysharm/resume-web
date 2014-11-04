@@ -23,28 +23,30 @@
 		<div>
 			<h3 class="section-header">{{label}}</h3>
 			{{#each companies}}
-			<div>
-				<div class="padding-bottom-2 bold space-between">
-					<div>{{location}}</div>
-					<div>{{address}}</div>
-				</div>
-				{{#each positions}}
-					<div class="padding-bottom-4 italic space-between">
-						<div>{{name}}</div>
-						<div>{{start_date}} - {{end_date}}</div>
+				{{#if enabled}}
+					<div>
+						<div class="padding-bottom-2 bold space-between">
+							<div>{{location}}</div>
+							<div>{{address}}</div>
+						</div>
+						{{#each positions}}
+							<div class="padding-bottom-4 italic space-between">
+								<div>{{name}}</div>
+								<div>{{start_date}} - {{end_date}}</div>
+							</div>
+							<ul class="items">
+							{{#each responsibilities}}
+								<li>{{this}}</li>
+							{{/each}}
+								<li><span class=bold>Technologies: </span>{{flat technologies}}</li>
+							</ul>
+						{{/each}}
 					</div>
-					<ul class="items">
-					{{#each responsibilities}}
-						<li>{{this}}</li>
-					{{/each}}
-						<li><span class=bold>Technologies: </span>{{flat technologies}}</li>
-					</ul>
-				{{/each}}
-			</div>
+				{{/if}}
 			{{/each}}
 		</div>
 	</script>
-	
+
 	<script id="education" type="text/x-handlebars-template">
 		<div>
 			<h3 class="section-header">{{label}}</h3>
@@ -87,7 +89,7 @@
 			</ul>
 		</div>
 	</script>
-	
+
 	<div id="main"/>
 </body>
 </html>
