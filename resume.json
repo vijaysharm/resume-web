@@ -2,16 +2,18 @@
 	"title": "Vijay Sharma",
 	"name": "Vijay Sharma",
 	"address" : [
-		"384 Crown Ridge Dr",
-		"Kanata, Ontario, K2M 3A4 Canada",
+		"519 Acceptance Pl",
+		"Kanata, Ontario, K2M 0K4 Canada",
 		"(514) 690 8458",
 		"vijay.sharm@gmail.com"
 	],
 	"objective": {
+		"enabled": false,
 		"label": "Objective",
 		"text": "To obtain a position as a senior software developer for mobile applications that will enable me to use my diverse experience, educational background, and ability to work well with people in order to deliver powerful quantitative and feature rich software to the end-user."
 	},
 	"professionalexperience": {
+		"enabled": true,
 		"label": "Professional Experience",
 		"companies": [
 			{
@@ -25,12 +27,13 @@
 						"end_date": "present",
 						"responsibilities":
 						[
-							"Boostrapped continous delivery environment",
+							"Boostrapped continous delivery environment for both iOS and Android",
 							"Rearchitected mobile application to make efficient use of battery life and network bandwidth",
 							"Redesigned end-user experience as part of the company's rebranding",
-							"Managed app deployment to both Apple's App Store and Google's Play Store"
+							"Managed app deployment to both Apple's App Store and Google's Play Store",
+							"Helped establish Agile process to mobile team"
 						],
-						"technologies": ["iOS", "XCode", "Cocoapods", "Android", "Intellij", "Gradle", "Circle CI"]
+						"technologies": ["iOS", "XCode", "Cocoapods", "Android", "Intellij", "Gradle", "Circle CI", "Git"]
 					}
 				],
 				"enabled": true
@@ -52,7 +55,7 @@
 							"Implemented interfaces among system components and with external systems, for example REST",
 							"Worked effectively within Agile software development team"
 						],
-						"technologies": ["MarionetteJS", "Java", "Android", "iOS", "AWS Elastic Beanstalk", "Jersey", "DynamoDB", "Maven"]
+						"technologies": ["MarionetteJS", "Java", "Android", "iOS", "AWS Elastic Beanstalk", "Jersey", "DynamoDB", "Maven", "SVN"]
 					}
 				],
 				"enabled": true
@@ -192,6 +195,7 @@
 	},
 	"education":
 	{
+		"enabled": true,
 		"label": "Education",
 		"schools":
 		[
@@ -224,13 +228,9 @@
 			}
 		]
 	},
-	"techical_expertise":
-	{
-		"label": "Technical Expertise",
-		"description": ""
-	},
 	"skills":
 	{
+		"enabled": true,
 		"label": "Skills",
 		"items":
 		[
@@ -308,6 +308,7 @@
 	},
 	"awards":
 	{
+		"enabled": true,
 		"label": "Awards and Honors",
 		"items": [
 			{
@@ -349,6 +350,7 @@
 	},
 	"languages":
 	{
+		"enabled": false,
 		"label": "Languages",
 		"items": [
 			{
@@ -367,6 +369,7 @@
 	},
 	"contact":
 	{
+		"enabled": false,
 		"label": "Contact Me",
 		"outlet": [
 			{
@@ -400,6 +403,15 @@
 				"url": "#"
 			}
 		]
+	},
+	"projects" : {
+		"enabled": true,
+		"label": "Projects",
+		"items": [{
+			"title": "",
+			"url": "",
+			"description": ""
+		}]
 	},
 	"resume_version": "1.0"
 }
