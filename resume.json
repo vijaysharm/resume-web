@@ -27,11 +27,12 @@
 						"end_date": "present",
 						"responsibilities":
 						[
-							"Boostrapped continous delivery environment for both iOS and Android",
+							"Boostrapped continuous delivery environment for both iOS and Android",
 							"Rearchitected mobile application to make efficient use of battery life and network bandwidth",
-							"Redesigned end-user experience as part of the company's rebranding",
+							"Redesigned end-user experience as part of the company's re-branding",
 							"Managed app deployment to both Apple's App Store and Google's Play Store",
-							"Helped establish Agile process to mobile team"
+							"Helped establish Agile process to mobile team",
+							"Help secure IRAPP government funding for business applications using NFC"
 						],
 						"technologies": ["iOS", "XCode", "Cocoapods", "Android", "Intellij", "Gradle", "Circle CI", "Git"]
 					}
