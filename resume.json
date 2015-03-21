@@ -8,10 +8,11 @@
 		"(514) 690 8458",
 		"vijay.sharm@gmail.com"
 	],
-	"objective": {
+	"personal": {
 		"enabled": ["mobile"],
-		"label": "Objective",
-		"text": "To obtain a position as a senior software developer for mobile applications that will enable me to use my diverse experience, educational background, and ability to work well with people in order to deliver powerful quantitative and feature rich software to the end-user."
+		"label": "Personal",
+		"objective": "To obtain a position as a senior software developer for mobile applications that will enable me to use my diverse experience, educational background, and ability to work well with people in order to deliver powerful quantitative and feature rich software to the end-user.",
+		"biography": "Super hero origin story"
 	},
 	"professionalexperience": {
 		"enabled": ["mobile", "web"],
