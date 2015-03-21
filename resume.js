@@ -12,6 +12,27 @@ Handlebars.registerHelper('flat', function(items) {
 	return result;
 });
 
+Handlebars.registerHelper('experience_item', function (company) {
+	console.log(company);
+	var index = company.positions.length;
+	while(index--) {
+		var enabled = company.positions[index].enabled;
+		if (! isEnabled(enabled)) {
+			company.positions.splice(index, 1);
+		}
+	}
+
+	if (company.positions.length == 0)
+		return;
+
+	var item = loadTemplateById('#experience-item');
+	return new Handlebars.SafeString(item(company));
+});
+
+function isEnabled(enabled) {
+	return enabled.indexOf('web') != -1;
+}
+
 function loadTemplateById( id ) {
 	return Handlebars.compile($(id).html());
 }

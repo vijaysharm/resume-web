@@ -8,12 +8,12 @@
 		"vijay.sharm@gmail.com"
 	],
 	"objective": {
-		"enabled": false,
+		"enabled": ["mobile"],
 		"label": "Objective",
 		"text": "To obtain a position as a senior software developer for mobile applications that will enable me to use my diverse experience, educational background, and ability to work well with people in order to deliver powerful quantitative and feature rich software to the end-user."
 	},
 	"professionalexperience": {
-		"enabled": true,
+		"enabled": ["mobile", "web"],
 		"label": "Professional Experience",
 		"companies": [
 			{
@@ -34,10 +34,10 @@
 							"Helped establish Agile process to mobile team",
 							"Help secure IRAPP government funding for business applications using NFC"
 						],
+						"enabled": ["mobile", "web"],
 						"technologies": ["iOS", "XCode", "Cocoapods", "Android", "Intellij", "Gradle", "Circle CI", "Git"]
 					}
-				],
-				"enabled": true
+				]
 			},
 			{
 				"location": "Signiant",
@@ -56,10 +56,10 @@
 							"Implemented interfaces among system components and with external systems, for example REST",
 							"Worked effectively within Agile software development team"
 						],
+						"enabled": ["mobile", "web"],
 						"technologies": ["MarionetteJS", "Java", "Android", "iOS", "AWS Elastic Beanstalk", "Jersey", "DynamoDB", "Maven", "SVN"]
 					}
-				],
-				"enabled": true
+				]
 			},
 			{
 				"location": "Intelerad Medical Systems",
@@ -78,6 +78,7 @@
 							"Mentored new employees to adapt to company's culture, in a lead position on projects, and spearheading new software development practices",
 							"Developed support for multiple platforms including Mobile-Web, Android and iOS"
 						],
+						"enabled": ["mobile", "web"],
 						"technologies": ["AngularJS", "EmberJS", "GWT", "Android", "iOS", "Tomcat", "PostgreSQL"]
 					},
 					{
@@ -92,6 +93,7 @@
 							"Frequently volunteered to provide in-house demonstrations of new software modules to other departments, including field-analysts, project managers and stakeholders",
 							"Awarded for going \"Beyond the Call of Duty\" by providing expert opinion and hands-on aid to all projects, including projects outside my team"
 						],
+						"enabled": ["mobile", "web"],
 						"technologies": ["Java", "JNI", "Swing", "XMPP", "Smack", "Tigase", "Hessian", "Guice", "Guava", "Eclipse", "JUnit", "Mercurial", "PostgreSQL"]
 					},
 					{
@@ -105,10 +107,10 @@
 							"First-level contact for support for troubleshooting client issues, which included off-hour support for clients in Australia",
 							"Received the \"Culture Creature\" award for quickly adapting into company ecosystem, and upholding the software's integrity, while operating at high standards"
 						],
+						"enabled": ["mobile", "web"],
 						"technologies": ["Java", "Swing", "C/C++", "MFC", "CVS", "STL", "Boost", "Python"]
 					}
-				],
-				"enabled": true
+				]
 			},
 			{
 				"location": "Robarts Research Imaging Institute",
@@ -125,10 +127,10 @@
 							"Developed and integrated segmentation modules with VTK/ITK in to in-house image viewer",
 							"Ported several 2D segmentation and 3D reconstruction code written in Python in to C/C++"
 						],
+						"enabled": ["mobile", "web"],
 						"technologies": ["C/C++", "Python", "Matlab", "Linux", "OpenCV", "VTK/ITK"]
 					}
-				],
-				"enabled": true
+				]
 			},
 			{
 				"location": "Concordia University",
@@ -147,10 +149,10 @@
 							"Implemented several video format (YUV to RGB) conversion algorithms for in-house library",
 							"Taught numerous classes on Object-Oriented design and development using Java and C/C++"
 						],
+						"enabled": ["mobile", "web"],
 						"technologies": ["Java", "C/C++", "Linux"]
 					}
-				],
-				"enabled": true
+				]
 			},
 			{
 				"location": "Nuance Communications",
@@ -167,10 +169,10 @@
 							"Engineered integration and system test suites for Voice Application Server in Java and XML",
 							"Developed and maintained test plans documents based on business and software requirements"
 						],
+						"enabled": ["mobile", "web"],
 						"technologies": ["Java", "Perl", "XHTML", "CSS2", "JavaScript", "Linux"]
 					}
-				],
-				"enabled": true
+				]
 			},
 			{
 				"location": "Speechworks",
@@ -187,16 +189,16 @@
 							"Developed client applications using proprietary speech recognition engine for Windows Mobile",
 							"Enhanced embedded speech recognition products to meet their functional requirements"
 						],
-						"technologies": ["C/C++", "Bash Scripting", "Perl", "Win32", "Visual Studio"]
+						"technologies": ["C/C++", "Bash Scripting", "Perl", "Win32", "Visual Studio"],
+						"enabled": []
 					}
-				],
-				"enabled": false
+				]
 			}
 		]
 	},
 	"education":
 	{
-		"enabled": true,
+		"enabled": ["web"],
 		"label": "Education",
 		"schools":
 		[
@@ -231,7 +233,7 @@
 	},
 	"skills":
 	{
-		"enabled": true,
+		"enabled": ["web"],
 		"label": "Skills",
 		"items":
 		[
@@ -309,7 +311,7 @@
 	},
 	"awards":
 	{
-		"enabled": true,
+		"enabled": ["web"],
 		"label": "Awards and Honors",
 		"items": [
 			{
@@ -351,7 +353,7 @@
 	},
 	"languages":
 	{
-		"enabled": false,
+		"enabled": ["web"],
 		"label": "Languages",
 		"items": [
 			{
@@ -370,7 +372,7 @@
 	},
 	"contact":
 	{
-		"enabled": false,
+		"enabled": [],
 		"label": "Contact Me",
 		"outlet": [
 			{
@@ -406,13 +408,12 @@
 		]
 	},
 	"projects" : {
-		"enabled": true,
+		"enabled": [],
 		"label": "Projects",
 		"items": [{
 			"title": "",
 			"url": "",
 			"description": ""
 		}]
-	},
-	"resume_version": "1.0"
+	}
 }
