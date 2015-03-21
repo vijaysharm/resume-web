@@ -20,7 +20,8 @@
 		"companies": [
 			{
 				"location": "Younility",
-				"address": "Nepean, Ontario, Canada",
+				"address": "Ottawa, Ontario",
+				"site": "https://www.younility.com",
 				"positions":
 				[
 					{
@@ -43,7 +44,8 @@
 			},
 			{
 				"location": "Signiant",
-				"address": "Kanata, Ontario, Canada",
+				"address": "Ottawa, Ontario",
+				"site": "https://www.signiant.com",
 				"positions":
 				[
 					{
@@ -65,7 +67,8 @@
 			},
 			{
 				"location": "Intelerad Medical Systems",
-				"address": "Montreal, Quebec Canada",
+				"address": "Montreal, Quebec",
+				"site": "https://www.intelerad.com",
 				"positions":
 				[
 					{
@@ -116,7 +119,8 @@
 			},
 			{
 				"location": "Robarts Research Imaging Institute",
-				"address": "London, Ontario Canada",
+				"address": "London, Ontario",
+				"site": "http://www.robarts.ca",
 				"positions":
 				[
 					{
@@ -136,7 +140,8 @@
 			},
 			{
 				"location": "Concordia University",
-				"address": "Montreal, Quebec Canada",
+				"address": "Montreal, Quebec",
+				"site": "http://www.concordia.ca",
 				"positions":
 				[
 					{
@@ -158,7 +163,8 @@
 			},
 			{
 				"location": "Nuance Communications",
-				"address": "Montreal, Quebec Canada",
+				"address": "Montreal, Quebec",
+				"site": "http://www.nuance.com",
 				"positions":
 				[
 					{
@@ -178,7 +184,8 @@
 			},
 			{
 				"location": "Speechworks",
-				"address": "Montreal, Quebec Canada",
+				"address": "Montreal, Quebec",
+				"site": "http://www.nuance.com",
 				"positions":
 				[
 					{
