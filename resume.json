@@ -40,6 +40,10 @@
 						"enabled": ["mobile", "web"],
 						"technologies": ["iOS", "XCode", "Cocoapods", "Android", "Intellij", "Gradle", "Circle CI", "Git"]
 					}
+				],
+				"references": [
+					{ "name": "Chris Cameron", "position": "Chief Technology Officer", "contact": "" },
+					{ "name": "Ryan Cassels", "position": "Chief Executive Officer", "contact": "" }
 				]
 			},
 			{
@@ -63,6 +67,10 @@
 						"enabled": ["mobile", "web"],
 						"technologies": ["MarionetteJS", "Java", "Android", "iOS", "AWS Elastic Beanstalk", "Jersey", "DynamoDB", "Maven", "SVN"]
 					}
+				],
+				"references": [
+					{ "name": "Peter Hodgkinson", "position": "Software Developer", "contact": "" },
+					{ "name": "Peter Boos", "position": "Director of Engineering", "contact": "" }
 				]
 			},
 			{
@@ -115,6 +123,11 @@
 						"enabled": ["mobile", "web"],
 						"technologies": ["Java", "Swing", "C/C++", "MFC", "CVS", "STL", "Boost", "Python"]
 					}
+				],
+				"references":[
+					{ "name": "Hormoz Pirzadeh", "position": "Director of Engineering", "contact": "hpirzadeh@gmail.com"},
+					{ "name": "Kent Tse", "position": "Director of Engineering", "contact": "kent@alitse.org"},
+					{ "name": "Amos Chan", "position": "Software Developer", "contact": "ac@amoschan.com"}
 				]
 			},
 			{
@@ -136,6 +149,9 @@
 						"enabled": ["mobile", "web"],
 						"technologies": ["C/C++", "Python", "Matlab", "Linux", "OpenCV", "VTK/ITK"]
 					}
+				],
+				"references":[
+					{ "name": "David McErlain", "position": "Colleague", "contact": "" }
 				]
 			},
 			{
@@ -159,6 +175,9 @@
 						"enabled": ["mobile", "web"],
 						"technologies": ["Java", "C/C++", "Linux"]
 					}
+				],
+				"references":[
+					{ "name": "Dr. Anjali Agarwal", "position": "Engineer Professor", "contact": "aagarwal@ece.concordia.ca" }
 				]
 			},
 			{
@@ -180,7 +199,8 @@
 						"technologies": ["Java", "Perl", "XHTML", "CSS2", "JavaScript", "Linux"],
 						"enabled": []
 					}
-				]
+				],
+				"references":[]
 			},
 			{
 				"location": "Speechworks",
@@ -201,7 +221,8 @@
 						"technologies": ["C/C++", "Bash Scripting", "Perl", "Win32", "Visual Studio"],
 						"enabled": []
 					}
-				]
+				],
+				"references":[]
 			}
 		]
 	},
