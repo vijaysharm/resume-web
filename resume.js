@@ -13,7 +13,6 @@ Handlebars.registerHelper('flat', function(items) {
 });
 
 Handlebars.registerHelper('experience_item', function (company) {
-	console.log(company);
 	var index = company.positions.length;
 	while(index--) {
 		var enabled = company.positions[index].enabled;
@@ -27,6 +26,13 @@ Handlebars.registerHelper('experience_item', function (company) {
 
 	var item = loadTemplateById('#experience-item');
 	return new Handlebars.SafeString(item(company));
+});
+
+Handlebars.registerHelper('date', function(date) {
+	if (date === 'present')
+		return date;
+
+	return moment(date).add(1, 'month').format("MMMM YYYY");
 });
 
 function isEnabled(enabled) {

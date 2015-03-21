@@ -23,7 +23,7 @@
 				[
 					{
 						"name": "Senior Mobile Engineer",
-						"start_date": "October 2014",
+						"start_date": "2014-10-01T00:00:00.000-03:00",
 						"end_date": "present",
 						"responsibilities":
 						[
@@ -46,8 +46,8 @@
 				[
 					{
 						"name": "Java Software Developer (Cloud Applications)",
-						"start_date": "February 2014",
-						"end_date": "October 2014",
+						"start_date": "2014-02-01T00:00:00.000-03:00",
+						"end_date": "2014-10-01T00:00:00.000-03:00",
 						"responsibilities":
 						[
 							"Developed Cloud and Mobile-based solutions that extend the reach of Signiant products beyond traditional enterprise environments",
@@ -68,8 +68,8 @@
 				[
 					{
 						"name": "Senior Member of R&D",
-						"start_date": "January 2011",
-						"end_date": "February 2014",
+						"start_date": "2011-01-01T00:00:00.000-03:00",
+						"end_date": "2014-02-01T00:00:00.000-03:00",
 						"responsibilities":
 						[
 							"Lead the development of the company's new flagship online clinical image viewer using latest HTML5 technologies to develop a high performance viewer targeted for the web and mobile devices",
@@ -83,8 +83,8 @@
 					},
 					{
 						"name": "Intermediate Member of R&D",
-						"start_date": "Decemnber 2009",
-						"end_date": "January 2011",
+						"start_date": "2009-12-01T00:00:00.000-03:00",
+						"end_date": "2011-01-01T00:00:00.000-03:00",
 						"responsibilities":
 						[
 							"Worked in an agile team and managed projects from design through to deployment stages",
@@ -98,8 +98,8 @@
 					},
 					{
 						"name": "Junior Member of R&D",
-						"start_date": "September 2007",
-						"end_date": "December 2009",
+						"start_date": "2007-09-01T00:00:00.000-03:00",
+						"end_date": "2009-12-01T00:00:00.000-03:00",
 						"responsibilities":
 						[
 							"Developed and maintained tight integrations with third party partners in with short turn-around time",
@@ -119,8 +119,8 @@
 				[
 					{
 						"name": "Research Assistant",
-						"start_date": "September 2005",
-						"end_date": "September 2007",
+						"start_date": "2005-09-01T00:00:00.000-03:00",
+						"end_date": "2007-09-01T00:00:00.000-03:00",
 						"responsibilities":
 						[
 							"Implemented stereo reconstruction and image segmentation using OpenCV",
@@ -139,8 +139,8 @@
 				[
 					{
 						"name": "Research Assistant",
-						"start_date": "January 2004",
-						"end_date": "Sepetember 2005",
+						"start_date": "2004-01-01T00:00:00.000-03:00",
+						"end_date": "2005-09-01T00:00:00.000-03:00",
 
 						"responsibilities":
 						[
@@ -161,16 +161,16 @@
 				[
 					{
 						"name": "Quality Assurance Engineer (Internship)",
-						"start_date": "May 2003",
-						"end_date": "August 2003",
+						"start_date": "2003-05-01T00:00:00.000-03:00",
+						"end_date": "2003-08-01T00:00:00.000-03:00",
 
 						"responsibilities":
 						[
 							"Engineered integration and system test suites for Voice Application Server in Java and XML",
 							"Developed and maintained test plans documents based on business and software requirements"
 						],
-						"enabled": ["mobile", "web"],
-						"technologies": ["Java", "Perl", "XHTML", "CSS2", "JavaScript", "Linux"]
+						"technologies": ["Java", "Perl", "XHTML", "CSS2", "JavaScript", "Linux"],
+						"enabled": []
 					}
 				]
 			},
@@ -181,8 +181,8 @@
 				[
 					{
 						"name": "Embedded Systems Developer (Internship)",
-						"start_date": "August 2002",
-						"end_date": "December 2002",
+						"start_date": "2002-08-01T00:00:00.000-03:00",
+						"end_date": "2002-12-01T00:00:00.000-03:00",
 
 						"responsibilities":
 						[
@@ -207,8 +207,8 @@
 				"address": "London, Ontario Canada",
 
 				"name": "Master of Engineering Sciences",
-				"start_date": "September 2005",
-				"end_date": "September 2007",
+				"start_date": "2005-09-01T00:00:00.000-03:00",
+				"end_date": "2007-09-01T00:00:00.000-03:00",
 				"responsibilities":
 				[
 					"M.E.Sc. in Biomedical Engineering",
@@ -218,8 +218,8 @@
 			},
 			{
 				"name": "Bachelor of Electrical and Computer Engineering",
-				"start_date": "September 2001",
-				"end_date": "May 2005",
+				"start_date": "2001-09-01T00:00:00.000-03:00",
+				"end_date": "2005-05-01T00:00:00.000-03:00",
 				"location": "Concordia University",
 				"address": "Montreal, Quebec Canada",
 				"responsibilities":
