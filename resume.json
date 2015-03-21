@@ -3,7 +3,7 @@
 	"name": "Vijay Sharma",
 	"address" : [
 		"519 Acceptance Pl",
-		"Kanata, Ontario, K2M 0K4 Canada",
+		"Ottawa, ON K2M 0K4 Canada",
 		"(514) 690 8458",
 		"vijay.sharm@gmail.com"
 	],
@@ -372,38 +372,32 @@
 	},
 	"contact":
 	{
-		"enabled": [],
+		"enabled": ["mobile"],
 		"label": "Contact Me",
 		"outlet": [
 			{
+				"title": "web",
+				"url": "http://www.vijaysharma.ca"
+			},
+			{
+				"title": "email",
+				"url": "vijay.sharm@gmail.com"
+			},
+			{
 				"title": "linkedIn",
-				"image": "http://lunduke.com/linkedin.png",
 				"url": "http://ca.linkedin.com/in/vijaysharm"
 			},
 			{
 				"title": "twitter",
-				"image": "http://lunduke.com/twitter.png",
 				"url": "https://twitter.com/v_sharm"
 			},
 			{
-				"title": "facebook",
-				"image": "http://lunduke.com/facebook.png",
-				"url": "#"
+				"title": "github",
+				"url": "https://github.com/vijaysharm"
 			},
 			{
-				"title": "googleplus",
-				"image": "http://lunduke.com/googleplus.png",
-				"url": "#"
-			},
-			{
-				"title": "rss",
-				"image": "http://lunduke.com/rss.png",
-				"url": "#"
-			},
-			{
-				"title": "email",
-				"image": "http://lunduke.com/email.png",
-				"url": "#"
+				"title": "stackOverflow",
+				"url": "http://stackoverflow.com/users/529692/vijay-sharma"
 			}
 		]
 	},
