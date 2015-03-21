@@ -22,6 +22,7 @@
 				"location": "Younility",
 				"address": "Ottawa, Ontario",
 				"site": "https://www.younility.com",
+				"summary": "Leaders in field communication software",
 				"positions":
 				[
 					{
@@ -50,6 +51,7 @@
 				"location": "Signiant",
 				"address": "Ottawa, Ontario",
 				"site": "https://www.signiant.com",
+				"summary": "Helps distributors ensure fast, secure delivery of large files over public and private networks.",
 				"positions":
 				[
 					{
@@ -77,6 +79,7 @@
 				"location": "Intelerad Medical Systems",
 				"address": "Montreal, Quebec",
 				"site": "https://www.intelerad.com",
+				"summary": "Provides medical imaging solutions and services to radiology groups, hospitals, imaging centers, and teleradiology businesses.",
 				"positions":
 				[
 					{
@@ -134,6 +137,7 @@
 				"location": "Robarts Research Imaging Institute",
 				"address": "London, Ontario",
 				"site": "http://www.robarts.ca",
+				"summary": "Bringing medical discoveries and new technologies faster to clinical trials, faster to market, and, ultimately, faster to customers",
 				"positions":
 				[
 					{
@@ -158,6 +162,7 @@
 				"location": "Concordia University",
 				"address": "Montreal, Quebec",
 				"site": "http://www.concordia.ca",
+				"summary": "A comprehensive university searching for innovative solutions and make positive contributions to society, powering Montreal and connecting students to the world.",
 				"positions":
 				[
 					{
@@ -184,6 +189,7 @@
 				"location": "Nuance Communications",
 				"address": "Montreal, Quebec",
 				"site": "http://www.nuance.com",
+				"summary": "Reinventing the relationship between people and technology",
 				"positions":
 				[
 					{
