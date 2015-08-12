@@ -19,6 +19,62 @@
 		"label": "Professional Experience",
 		"companies": [
 			{
+				"location": "Kwilt",
+				"address": "Ottawa, Ontario",
+				"site": "https://www.kwiltapp.com",
+				"summary": "Taking your photo experience to the next level",
+				"positions":
+				[
+					{
+						"name": "Senior Mobile Architect",
+						"start_date": "2015-07-01T00:00:00.000-03:00",
+						"end_date": "present",
+						"responsibilities":
+						[
+							"Made decisions on the approach to be taken for each architectural change or addition to the product",
+							"Turned requirements and high level features into smaller tasks",
+							"Managed resource allocation on projects and deliverables",
+							"Owned the Continuous Integration process",
+							"Arranged releases to beta programs and Apple iOS App store as well as internal releases for QA purposes",
+							"Developed Android port of company's KwiltKey app"
+						],
+						"enabled": ["mobile", "web"],
+						"technologies": ["iOS", "XCode", "Objective-C", "FogBugz", "Git", "KilnHg", "Android Studio", "Android SDK"]
+					}
+				],
+				"references": [
+					{ "name": "Mostafa Hosseini", "position": "Chief Technology Officer", "contact": "" },
+					{ "name": "Ryan Cassels", "position": "VP Product Development", "contact": "" }
+				]
+			},
+			{
+				"location": "Toptal",
+				"address": "Ottawa, Ontario",
+				"site": "https://www.toptal.com",
+				"summary": "Connecting the top 3% of freelance developers all over the world",
+				"positions":
+				[
+					{
+						"name": "Android Consultant at Datacap Systems Inc",
+						"start_date": "2014-02-01T00:00:00.000-03:00",
+						"end_date": "present",
+						"responsibilities":
+						[
+							"Helped transition company from using Eclipse into using Android Studio and BitBucket",
+							"Rearchitected Android client library for improved stability, testability, and extensibility",
+							"Established automated build process using Gradle, to generate test reports and library artifacts",
+							"Prototyped applications requiring deep Android knowledge to validate business requirements"
+						],
+						"enabled": ["mobile", "web"],
+						"technologies": ["Android Studio", "Android SDK", "Gradle"]
+					}
+				],
+				"references": [
+					{ "name": "Justin Zeigler", "position": "Marketing", "contact": "justin.zeigler@dcap.com" },
+					{ "name": "Doug McCann", "position": "Android Developer", "contact": "pdmccann@gmail.com" }
+				]
+			},
+			{
 				"location": "Younility",
 				"address": "Ottawa, Ontario",
 				"site": "https://www.younility.com",
@@ -28,23 +84,24 @@
 					{
 						"name": "Senior Mobile Engineer",
 						"start_date": "2014-10-01T00:00:00.000-03:00",
-						"end_date": "present",
+						"end_date": "2015-07-01T00:00:00.000-03:00",
 						"responsibilities":
 						[
-							"Boostrapped continuous delivery environment for both iOS and Android",
-							"Rearchitected mobile application to make efficient use of battery life and network bandwidth",
-							"Redesigned end-user experience as part of the company's re-branding",
+							"Boostrapped continuous delivery environment for both iOS and Android eliminating manual build artifact creation",
+							"Rearchitected both iOS and Android mobile application to make efficient use of battery life and network bandwidth",
+							"Rearchitecture of Android mobile application yielded improved test coverage from 5% to 40% in 2 months",
+							"Redesigned and implemented revamped end-user experience as part of the company's re-branding",
 							"Managed app deployment to both Apple's App Store and Google's Play Store",
-							"Helped establish Agile process to mobile team",
+							"Helped establish Agile process across the entire company",
 							"Help secure IRAPP government funding for business applications using NFC"
 						],
 						"enabled": ["mobile", "web"],
-						"technologies": ["iOS", "XCode", "Cocoapods", "Android", "Intellij", "Gradle", "Circle CI", "Git"]
+						"technologies": ["iOS", "XCode", "Cocoapods", "Android SDK", "Android Studio", "Gradle", "Circle CI", "Git", "GitHub"]
 					}
 				],
 				"references": [
-					{ "name": "Chris Cameron", "position": "Chief Technology Officer", "contact": "" },
-					{ "name": "Ryan Cassels", "position": "Chief Executive Officer", "contact": "" }
+					{ "name": "Chris Cameron", "position": "Chief Technology Officer", "contact": "chris.cameron@younility.com" },
+					{ "name": "Ryan Cassels", "position": "Chief Executive Officer", "contact": "ryan@younility.com" }
 				]
 			},
 			{
@@ -67,12 +124,12 @@
 							"Worked effectively within Agile software development team"
 						],
 						"enabled": ["mobile", "web"],
-						"technologies": ["MarionetteJS", "Java", "Android", "iOS", "AWS Elastic Beanstalk", "Jersey", "DynamoDB", "Maven", "SVN"]
+						"technologies": ["MarionetteJS", "Java", "Android SDK", "iOS", "AWS Elastic Beanstalk", "Jersey", "DynamoDB", "Maven", "SVN"]
 					}
 				],
 				"references": [
-					{ "name": "Peter Hodgkinson", "position": "Software Developer", "contact": "" },
-					{ "name": "Peter Boos", "position": "Director of Engineering", "contact": "" }
+					{ "name": "Peter Hodgkinson", "position": "Software Developer", "contact": "pboos@signiant.com" },
+					{ "name": "Peter Boos", "position": "Director of Engineering", "contact": "pdhodgkinson@gmail.com" }
 				]
 			},
 			{
@@ -150,7 +207,7 @@
 							"Developed and integrated segmentation modules with VTK/ITK in to in-house image viewer",
 							"Ported several 2D segmentation and 3D reconstruction code written in Python in to C/C++"
 						],
-						"enabled": ["mobile", "web"],
+						"enabled": [],
 						"technologies": ["C/C++", "Python", "Matlab", "Linux", "OpenCV", "VTK/ITK"]
 					}
 				],
@@ -177,7 +234,7 @@
 							"Implemented several video format (YUV to RGB) conversion algorithms for in-house library",
 							"Taught numerous classes on Object-Oriented design and development using Java and C/C++"
 						],
-						"enabled": ["mobile", "web"],
+						"enabled": [],
 						"technologies": ["Java", "C/C++", "Linux"]
 					}
 				],
