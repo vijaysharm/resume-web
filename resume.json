@@ -326,83 +326,49 @@
 			}
 		]
 	},
-	"skills":
-	{
-		"enabled": ["web"],
+	"skills": {
 		"label": "Skills",
-		"items":
-		[
-			{
-				"title": "Programming",
-				"items":
-				[
-					"Java",
-					"C/C++",
-					"HTML5/CSS3/Javascript",
-					"Python",
-					"Perl",
-					"Matlab",
-					"SQL"
-				]
-			},
-			{
-				"title": "Applications",
-				"items":
-				[
-					"Eclipse",
-					"Ant",
-					"Maven",
-					"Visual Studio",
-					"GCC/Make"
-				]
-			},
-			{
-				"title": "Libraries",
-				"items":
-				[
-					"Swing",
-					"Guava",
-					"OpenGL",
-					"Jabber",
-					"Hibernate",
-					"Hessian",
-                    "STL",
-                    "Boost",
-                    "MFC",
-                    "VTK/ITK",
-                    "OpenCV"
-				]
-			},
-			{
-				"title": "Version Control",
-				"items":
-				[
-					"Mercurial",
-					"CVS",
-					"Subversion"
-				]
-			},
-			{
-				"title": "Operating Systems",
-				"items":
-				[
-					"Android",
-					"iOS",
-					"Windows",
-					"Red Hat/Ubuntu/Centos 5",
-					"Mac OS X"
-				]
-			},
-			{
-				"title": "Databases",
-				"items":
-				[
-					"MySQL",
-					"Postgres",
-					"Sybase"
-				]
-			}
-		]
+		"items": [{
+			"name": "Android",
+			"type": "android",
+			"start": "2010-01-01T00:00:00.000-03:00",
+			"end": "present",
+			"beginner": ["one"],
+			"intermediate": ["two"],
+			"advanced": ["three"]
+		}, {
+			"name": "iOS",
+			"type": "ios",
+			"start": "2010-01-01T00:00:00.000-03:00",
+			"end": "present",
+			"beginner": ["one"],
+			"intermediate": ["two"],
+			"advanced": ["three"]
+		}, {
+			"name": "Frontend Web",
+			"type": "web",
+			"start": "2010-01-01T00:00:00.000-03:00",
+			"end": "present",
+			"beginner": ["one"],
+			"intermediate": ["two"],
+			"advanced": ["three"]
+		}, {
+			"name": "Backend",
+			"type": "server",
+			"start": "2010-01-01T00:00:00.000-03:00",
+			"end": "present",
+			"beginner": ["one"],
+			"intermediate": ["two"],
+			"advanced": ["three"]
+		}, {
+			"name": "Storage",
+			"type": "db",
+			"start": "2010-01-01T00:00:00.000-03:00",
+			"end": "present",
+			"beginner": ["one"],
+			"intermediate": ["two"],
+			"advanced": ["three"]
+		}]
 	},
 	"awards":
 	{
