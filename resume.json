@@ -333,41 +333,46 @@
 			"type": "android",
 			"start": "2010-01-01T00:00:00.000-03:00",
 			"end": "present",
-			"beginner": ["one"],
-			"intermediate": ["two"],
-			"advanced": ["three"]
+			"beginner": ["Animations"],
+			"intermediate": ["Realm.io", "Google Play Store"],
+			"advanced": ["RxJava", "Picasso", "Glide"],
+			"enabled": ["mobile"]
 		}, {
 			"name": "iOS",
 			"type": "ios",
-			"start": "2010-01-01T00:00:00.000-03:00",
+			"start": "2012-01-01T00:00:00.000-03:00",
 			"end": "present",
-			"beginner": ["one"],
-			"intermediate": ["two"],
-			"advanced": ["three"]
+			"beginner": ["Swift"],
+			"intermediate": ["CoreData", "CoreAnimation", "AdaptiveLayout"],
+			"advanced": ["AFNetworking", "ReactiveCocoa", "CocoaPods", "AutoLayout", "Code Signing"],
+			"enabled": ["mobile"]
 		}, {
 			"name": "Frontend Web",
 			"type": "web",
 			"start": "2010-01-01T00:00:00.000-03:00",
 			"end": "present",
-			"beginner": ["one"],
-			"intermediate": ["two"],
-			"advanced": ["three"]
+			"beginner": [],
+			"intermediate": ["AngularJS", "EmberJS"],
+			"advanced": ["jQuery", "BackboneJS", "MarionetteJS"],
+			"enabled": ["mobile"]
 		}, {
 			"name": "Backend",
 			"type": "server",
-			"start": "2010-01-01T00:00:00.000-03:00",
+			"start": "2007-01-01T00:00:00.000-03:00",
 			"end": "present",
-			"beginner": ["one"],
-			"intermediate": ["two"],
-			"advanced": ["three"]
+			"beginner": [],
+			"intermediate": ["NodeJS", "Google App Engine"],
+			"advanced": ["Tomcat"],
+			"enabled": ["mobile"]
 		}, {
 			"name": "Storage",
 			"type": "db",
-			"start": "2010-01-01T00:00:00.000-03:00",
+			"start": "2007-01-01T00:00:00.000-03:00",
 			"end": "present",
-			"beginner": ["one"],
-			"intermediate": ["two"],
-			"advanced": ["three"]
+			"beginner": ["Couchbase"],
+			"intermediate": ["Postgresql", "MongoDB"],
+			"advanced": ["SQLite"],
+			"enabled": ["mobile"]
 		}]
 	},
 	"awards":
