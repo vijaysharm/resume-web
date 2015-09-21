@@ -495,6 +495,19 @@
                 "http://a2.mzstatic.com/us/r30/Purple1/v4/f8/45/d2/f845d263-b9a2-ea31-d9d6-4658b6823f1d/screen322x572.jpeg"
 			]
 		}, {
+			"enabled": ["mobile"],
+			"title": "Kwilt Photos",
+			"description": "KwiltKeys is the world's first photo keyboard that offers the best workflow to find and share your photos from anywhere. And it’s A-awesome!",
+			"url": "https://itunes.apple.com/us/app/kwiltkeys-photo-keyboard-share/id1003799569?mt=8",
+			"tags": ["ios", "kwilt"],
+			"images": [
+				"http://a4.mzstatic.com/us/r30/Purple6/v4/ef/c8/38/efc838fc-b125-0656-d03e-0c5e65795e53/screen322x572.jpeg",
+				"http://a5.mzstatic.com/us/r30/Purple3/v4/6b/3d/55/6b3d55cb-fc42-245d-fbba-1079a2d1cd10/screen322x572.jpeg",
+				"http://a3.mzstatic.com/us/r30/Purple3/v4/f2/63/87/f263873e-5cc9-143e-96c5-6b8e6c240a33/screen322x572.jpeg",
+				"http://a2.mzstatic.com/us/r30/Purple6/v4/fe/98/70/fe9870a6-afcc-1df9-8494-0e2de8ebe647/screen322x572.jpeg",
+				"http://a5.mzstatic.com/us/r30/Purple3/v4/cd/cd/3e/cdcd3ec5-795a-6be3-d6c0-d4b88a2a1bfa/screen322x572.jpeg"
+			]
+		}, {
 			"enabled":["mobile"],
 			"title": "Younility for Android",
 			"description": "Make Work Simple",
