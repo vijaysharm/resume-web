@@ -1,164 +1,111 @@
 {
     "name":"Vijay Sharma",
     "title":"Senior Mobile Engineer",
-    "address":[
+    "address": [
         "519 Acceptance Pl",
         "Ottawa, Ontario",
         "Canada, K2M 0K4",
         "(514) 690 8458",
         "vijay.sharm@gmail.com"
     ],
-    "personal":{
-        "enabled":[
-            "mobile"
-        ],
+    "personal": {
+        "enabled":["mobile"],
         "label":"Personal",
         "objective":"To obtain a position as a senior software developer for mobile applications that will enable me to use my diverse experience, educational background, and ability to work well with people in order to deliver powerful, high quality, and feature rich software to the end-user.",
         "biography":"Super hero origin story"
     },
-    "professionalexperience":{
-        "enabled":[
-            "mobile",
-            "web"
-        ],
-        "label":"Professional Experience",
-        "companies":[
-            {
-                "location":"Kwilt",
-                "address":"Ottawa, Ontario",
-                "site":"https://www.kwiltapp.com",
-                "summary":"Taking your photo experience to the next level",
-                "positions":[
-                    {
-                        "name":"Senior Mobile Architect",
-                        "start_date":"2015-07-01T00:00:00.000-03:00",
-                        "end_date":"present",
-                        "responsibilities":[
-                            "Made decisions on the approach to be taken for each architectural change or addition to the product",
-                            "Turned requirements and high level features into smaller tasks",
-                            "Managed resource allocation on projects and deliverables",
-                            "Owned the Continuous Integration process",
-                            "Arranged releases to beta programs and Apple iOS App store as well as internal releases for QA purposes",
-                            "Developed Android port of company's KwiltKey app"
-                        ],
-                        "enabled":[
-                            "mobile",
-                            "web"
-                        ],
-                        "technologies":[
-                            "iOS",
-                            "XCode",
-                            "Objective-C",
-                            "FogBugz",
-                            "Git",
-                            "KilnHg",
-                            "Android Studio",
-                            "Android SDK"
-                        ]
-                    }
-                ],
-                "references":[
-                    {
-                        "name":"Mostafa Hosseini",
-                        "position":"Chief Technology Officer",
-                        "contact":""
-                    },
-                    {
-                        "name":"Matt Kirubakaran",
-                        "position":"VP Product Development",
-                        "contact":""
-                    }
+    "professionalexperience": {
+        "enabled": ["mobile", "web"],
+        "label": "Professional Experience",
+        "companies": [{
+            "location": "Kwilt",
+            "address": "Ottawa, Ontario",
+            "site": "https://www.kwiltapp.com",
+            "summary": "Taking your photo experience to the next level",
+            "positions": [{
+                "name": "Senior Mobile Architect",
+                "start_date": "2015-07-01T00:00:00.000-03:00",
+                "end_date": "present",
+                "enabled": ["mobile", "web"],
+                "technologies": ["iOS", "XCode", "Objective-C", "Android Studio", "Android SDK", "FogBugz", "Git", "KilnHg"],
+                "responsibilities": [
+                    "Made decisions on the approach to be taken for each architectural change or addition to the product",
+                    "Turned requirements and high level features into smaller tasks",
+                    "Managed resource allocation on projects and deliverables",
+                    "Arranged releases to beta programs and Apple iOS App store as well as internal releases for QA purposes",
+                    "Developed Android port of company's KwiltKey app",
+                    "Helped develop the Kwilt Social Network"
                 ]
-            },
-            {
-                "location":"Toptal",
-                "address":"Ottawa, Ontario",
-                "site":"https://www.toptal.com",
-                "summary":"Connecting the top 3% of freelance developers all over the world",
-                "positions":[
-                    {
-                        "name":"Android Consultant at Datacap Systems Inc",
-                        "start_date":"2014-02-01T00:00:00.000-03:00",
-                        "end_date":"present",
-                        "responsibilities":[
-                            "Helped transition company from using Eclipse into using Android Studio and BitBucket",
-                            "Rearchitected Android client library for improved stability, testability, and extensibility",
-                            "Established automated build process using Gradle, to generate test reports and library artifacts",
-                            "Prototyped applications requiring deep Android knowledge to validate business requirements"
-                        ],
-                        "enabled":[
-                            "mobile",
-                            "web"
-                        ],
-                        "technologies":[
-                            "Android Studio",
-                            "Android SDK",
-                            "Gradle"
-                        ]
-                    }
+            }],
+            "references":[
+                { "name":"Sylvain Lambert", "position":"Chief Brand Officer", "contact":"sylvain.lambert@kwilt.it" }
+            ]
+        }, {
+            "location": "TestFairy",
+            "address": "Israel",
+            "site": "https://www.testfairy.com",
+            "summary": "TestFairy makes app testing and metric gathering easy.",
+            "positions": [{
+                "name": "Android Consultant (contract)",
+                "start_date": "2015-09-01T00:00:00.000-03:00",
+                "end_date": "present",
+                "responsibilities": [
+                    "Extract existing Android code base into reuseable SDK used by thousands of developers on millions of devices",
+                    "Developed wrappers for Xamarin, Unity, Cordova and Adobe Air",
+                    "Developed novel solutions included in proprietary testing SDK"
                 ],
-                "references":[
-                    {
-                        "name":"Justin Zeigler",
-                        "position":"Marketing",
-                        "contact":"justin.zeigler@dcap.com"
-                    },
-                    {
-                        "name":"Doug McCann",
-                        "position":"Android Developer",
-                        "contact":"pdmccann@gmail.com"
-                    }
-                ]
-            },
-            {
-                "location":"Younility",
-                "address":"Ottawa, Ontario",
-                "site":"https://www.younility.com",
-                "summary":"Leaders in field communication software",
-                "positions":[
-                    {
-                        "name":"Senior Mobile Engineer",
-                        "start_date":"2014-10-01T00:00:00.000-03:00",
-                        "end_date":"2015-07-01T00:00:00.000-03:00",
-                        "responsibilities":[
-                            "Boostrapped continuous delivery environment for both iOS and Android eliminating manual build artifact creation",
-                            "Rearchitected both iOS and Android mobile application to make efficient use of battery life and network bandwidth",
-                            "Rearchitecture of Android mobile application yielded improved test coverage from 5% to 40% in 2 months",
-                            "Redesigned and implemented revamped end-user experience as part of the company's re-branding",
-                            "Managed app deployment to both Apple's App Store and Google's Play Store",
-                            "Helped establish Agile process across the entire company",
-                            "Help secure IRAPP government funding for business applications using NFC"
-                        ],
-                        "enabled":[
-                            "mobile",
-                            "web"
-                        ],
-                        "technologies":[
-                            "iOS",
-                            "XCode",
-                            "Cocoapods",
-                            "Android SDK",
-                            "Android Studio",
-                            "Gradle",
-                            "Circle CI",
-                            "Git",
-                            "GitHub"
-                        ]
-                    }
+                "enabled": ["mobile", "web"],
+                "technologies": ["Android", "IntelliJ IDEA", "Ant", "Xamarin", "Unity", "Cordova", "Adobe Air"]
+            }],
+            "references":[{"name":"Gil Megidish", "position":"CTO", "contact":"gil@testfairy.com"}]
+        }, {
+            "location": "Datacap Systems Inc",
+            "address": "Chalfont, Philadelphia",
+            "site": "https://www.datacapsystems.com",
+            "summary": "Datacap develops payment interfaces used by hundreds of PC-based, mobile, and embedded Point of Sale Systems.",
+            "positions": [{
+                "name": "Android Consultant (contract)",
+                "start_date": "2015-05-01T00:00:00.000-03:00",
+                "end_date": "2015-07-01T00:00:00.000-03:00",
+                "responsibilities": [
+                    "Helped transition company from using Eclipse into using Android Studio and BitBucket",
+                    "Rearchitected Android client library for improved stability, testability, and extensibility",
+                    "Established automated build process using Gradle, to generate test reports and library artifacts",
+                    "Prototyped applications requiring deep Android knowledge to validate business requirements"
                 ],
-                "references":[
-                    {
-                        "name":"Chris Cameron",
-                        "position":"Chief Technology Officer",
-                        "contact":"chris.cameron@younility.com"
-                    },
-                    {
-                        "name":"Ryan Cassels",
-                        "position":"Chief Executive Officer",
-                        "contact":"ryan@younility.com"
-                    }
-                ]
-            },
+                "enabled": ["mobile", "web"],
+                "technologies": ["Android Studio", "Android SDK", "Gradle"]
+            }],
+            "references": [
+                {"name":"Justin Zeigler", "position":"Marketing", "contact":"justin.zeigler@dcap.com"},
+                {"name":"Doug McCann", "position":"Android Developer", "contact":"pdmccann@gmail.com"}
+            ]
+        }, {
+            "location": "Younility",
+            "address": "Ottawa, Ontario",
+            "site": "https://www.younility.com",
+            "summary": "Leaders in field communication software",
+            "positions": [{
+                "name": "Senior Mobile Engineer",
+                "start_date": "2014-10-01T00:00:00.000-03:00",
+                "end_date": "2015-07-01T00:00:00.000-03:00",
+                "responsibilities": [
+                    "Boostrapped continuous delivery environment for both iOS and Android eliminating manual build artifact creation",
+                    "Rearchitected both iOS and Android mobile application to make efficient use of battery life and network bandwidth",
+                    "Rearchitecture of Android mobile application yielded improved test coverage from 5% to 40% in 2 months",
+                    "Redesigned and implemented revamped end-user experience as part of the company's re-branding",
+                    "Managed app deployment to both Apple's App Store and Google's Play Store",
+                    "Helped establish Agile process across the entire company",
+                    "Help secure IRAPP government funding for business applications using NFC"
+                ],
+                "enabled":["mobile", "web"],
+                "technologies":["iOS", "XCode", "Cocoapods", "Android SDK", "Android Studio", "Gradle", "Circle CI", "Git", "GitHub"]
+            }],
+            "references":[
+                {"name":"Chris Cameron", "position":"Chief Technology Officer", "contact":"chris.cameron@younility.com"},
+                {"name":"Ryan Cassels", "position":"Chief Executive Officer", "contact":"ryan@younility.com"}
+            ]
+        },
             {
                 "location":"Signiant",
                 "address":"Ottawa, Ontario",
@@ -171,7 +118,7 @@
                         "end_date":"2014-10-01T00:00:00.000-03:00",
                         "responsibilities":[
                             "Developed Cloud and Mobile-based solutions that extend the reach of Signiant products beyond traditional enterprise environments",
-                            "Implemented product features from the user interface through to back end web services, using technologies such as Android, iOS, JavaScript, Java, and NoSQL solutions",
+                            "Implemented full-stack solutions, using technologies such as Android, iOS, JavaScript, Java, and NoSQL solutions",
                             "Designed system components to align with high performance system architecture",
                             "Implemented interfaces among system components and with external systems, for example REST",
                             "Worked effectively within Agile software development team"
@@ -274,7 +221,6 @@
                         "end_date":"2009-12-01T00:00:00.000-03:00",
                         "responsibilities":[
                             "Developed and maintained tight integrations with third party partners in with short turn-around time",
-                            "Frequently communicated with clients to develop requirements for new software features",
                             "First-level contact for support for troubleshooting client issues, which included off-hour support for clients in Australia",
                             "Received the \"Culture Creature\" award for quickly adapting into company ecosystem, and upholding the software's integrity, while operating at high standards"
                         ],
