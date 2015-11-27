@@ -18,6 +18,24 @@
         "enabled": ["mobile", "web"],
         "label": "Professional Experience",
         "companies": [{
+            "location": "TestFairy",
+            "address": "Israel",
+            "site": "https://www.testfairy.com",
+            "summary": "TestFairy makes app testing and metric gathering easy",
+            "positions": [{
+                "name": "Android Consultant (contract)",
+                "start_date": "2015-09-01T00:00:00.000-03:00",
+                "end_date": "present",
+                "responsibilities": [
+                    "Extract existing Android code base into reuseable SDK used by thousands of developers on millions of devices",
+                    "Developed plugins for Xamarin, Unity, Cordova and Adobe Air to expand user reach",
+                    "Developed novel solutions included in proprietary testing library"
+                ],
+                "enabled": ["mobile", "web"],
+                "technologies": ["Android", "IntelliJ IDEA", "Ant", "Xamarin", "Unity", "Cordova", "Adobe Air"]
+            }],
+            "references":[{"name":"Gil Megidish", "position":"CTO", "contact":"gil@testfairy.com"}]
+        }, {
             "location": "Kwilt",
             "address": "Ottawa, Ontario",
             "site": "https://www.kwiltapp.com",
@@ -25,7 +43,7 @@
             "positions": [{
                 "name": "Senior Mobile Architect",
                 "start_date": "2015-07-01T00:00:00.000-03:00",
-                "end_date": "present",
+                "end_date": "2015-12-01T00:00:00.000-03:00",
                 "enabled": ["mobile", "web"],
                 "technologies": ["iOS", "XCode", "Objective-C", "Android Studio", "Android SDK", "FogBugz", "Git", "KilnHg"],
                 "responsibilities": [
@@ -40,24 +58,6 @@
             "references":[
                 { "name":"Sylvain Lambert", "position":"Chief Brand Officer", "contact":"sylvain.lambert@kwilt.it" }
             ]
-        }, {
-            "location": "TestFairy",
-            "address": "Israel",
-            "site": "https://www.testfairy.com",
-            "summary": "TestFairy makes app testing and metric gathering easy.",
-            "positions": [{
-                "name": "Android Consultant (contract)",
-                "start_date": "2015-09-01T00:00:00.000-03:00",
-                "end_date": "present",
-                "responsibilities": [
-                    "Extract existing Android code base into reuseable SDK used by thousands of developers on millions of devices",
-                    "Developed wrappers for Xamarin, Unity, Cordova and Adobe Air",
-                    "Developed novel solutions included in proprietary testing SDK"
-                ],
-                "enabled": ["mobile", "web"],
-                "technologies": ["Android", "IntelliJ IDEA", "Ant", "Xamarin", "Unity", "Cordova", "Adobe Air"]
-            }],
-            "references":[{"name":"Gil Megidish", "position":"CTO", "contact":"gil@testfairy.com"}]
         }, {
             "location": "Datacap Systems Inc",
             "address": "Chalfont, Philadelphia",
