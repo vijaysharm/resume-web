@@ -630,132 +630,117 @@
     },
     "projects":{
         "label":"Projects",
-        "items":[
-            {
-                "enabled":[
-                    "mobile"
-                ],
-                "title":"PixPass",
-                "description":"The best image-keyboard-password manager ever!",
-                "url":"https://play.google.com/store/apps/details?id=ca.vijaysharma.password",
-                "tags":[
-                    "android"
-                ],
-                "images":[
-                    "https://lh3.googleusercontent.com/Yg8j1l7b78KqGsQhmt1YjlvVAcXMLf2XqcKRezXVmXjqL8K3Y-SzFD3zLpKE_h9q92Va=h900-rw",
-                    "https://lh3.googleusercontent.com/2vYsXpssAd2pQTGQHVgAeWYxzIn1oNnwX5CVMmHYXmZydaaelu7yitp86xthJhk7Vvw=h900-rw",
-                    "https://lh3.googleusercontent.com/KYuKvPJYQiVSnjL5Ry6boDDAB7HQWpdqe1CWDAbtrNrBSdMCYnNcwJxdoCXgisAi4r-f=h900-rw",
-                    "https://lh3.googleusercontent.com/9-eLvkGN8YQriBHxByG6qTYSYsIdAPv3_lOZi_s4qU3lx4Vm2oU03uBKJ6ht0m2QEw=h900-rw"
-                ]
-            },
-            {
-                "enabled":[
-                    "mobile"
-                ],
-                "title":"KwiltKeys",
-                "description":"KwiltKeys is the world's first photo keyboard that offers the best workflow to find and share your photos from anywhere. And it’s A-awesome!",
-                "url":"https://itunes.apple.com/us/app/kwiltkeys-photo-keyboard-share/id1003799569?mt=8",
-                "tags":[
-                    "ios",
-                    "kwilt"
-                ],
-                "images":[
-                    "http://a4.mzstatic.com/us/r30/Purple6/v4/ef/c8/38/efc838fc-b125-0656-d03e-0c5e65795e53/screen322x572.jpeg",
-                    "http://a5.mzstatic.com/us/r30/Purple3/v4/6b/3d/55/6b3d55cb-fc42-245d-fbba-1079a2d1cd10/screen322x572.jpeg",
-                    "http://a3.mzstatic.com/us/r30/Purple3/v4/f2/63/87/f263873e-5cc9-143e-96c5-6b8e6c240a33/screen322x572.jpeg",
-                    "http://a2.mzstatic.com/us/r30/Purple6/v4/fe/98/70/fe9870a6-afcc-1df9-8494-0e2de8ebe647/screen322x572.jpeg",
-                    "http://a5.mzstatic.com/us/r30/Purple3/v4/cd/cd/3e/cdcd3ec5-795a-6be3-d6c0-d4b88a2a1bfa/screen322x572.jpeg"
-                ]
-            },            
-            {
-                "enabled":[
-                    "mobile"
-                ],
-                "title":"Kwilt Photos",
-                "description":"The Universal Photo Roll: View, Edit and Share Your Photos",
-                "url":"https://itunes.apple.com/app/kwilt/id929742170?mt=8&ign-mpt=uo%3D2",
-                "tags":[
-                    "ios",
-                    "kwilt"
-                ],
-                "images":[
-                    "http://a3.mzstatic.com/us/r30/Purple7/v4/28/8d/6a/288d6a78-594b-ccc7-eb99-3b3809340724/screen322x572.jpeg",
-                    "http://a1.mzstatic.com/us/r30/Purple5/v4/25/0f/a6/250fa631-af33-9922-9794-55ec2a6d484a/screen322x572.jpeg",
-                    "http://a2.mzstatic.com/us/r30/Purple7/v4/98/18/cd/9818cdf9-e483-0f8f-75a9-a9a8e7aac271/screen322x572.jpeg",
-                    "http://a1.mzstatic.com/us/r30/Purple5/v4/3b/b4/3a/3bb43a66-f4d5-43ce-70a9-328522b5bc6c/screen322x572.jpeg",
-                    "http://a2.mzstatic.com/us/r30/Purple1/v4/f8/45/d2/f845d263-b9a2-ea31-d9d6-4658b6823f1d/screen322x572.jpeg"
-                ]
-            },
-            {
-                "enabled":[
-                    "mobile"
-                ],
-                "title":"Younility for Android",
-                "description":"Make Work Simple",
-                "url":"https://play.google.com/store/apps/details?id=com.touchfleet.dispatch&hl=en",
-                "tags":[
-                    "android",
-                    "younility"
-                ],
-                "images":[
-                    "https://lh3.googleusercontent.com/JgDSv0hm2gmJ5lKqTT7APuVVrfFKoA85V8HPkFmdA95hIPnguEJwmozsSLS4IOAucg=h900-rw",
-                    "https://lh3.googleusercontent.com/gZ8pPqR8FYRxQuSTJN9N6kAlGzxaA7X96wPt36VmZMxDiIDA1aP9MVBacFX-s7um0UKE=h900-rw",
-                    "https://lh3.googleusercontent.com/LWmCGoQt-271RBAB695RfATLAl-rF-zvsJ3jNkjjqQc0f5mTZq52eihVPfn0ikclmDI=h900-rw",
-                    "https://lh3.googleusercontent.com/3qZGBzqGjQBxSanCLP2fnVBqyMx7L90ELlg_67bnNSXu-5moixftCdJDgmSQj5nItLg=h900-rw",
-                    "https://lh3.googleusercontent.com/21CJHIdw-WRx5Cv7o4AcwK8cPV_Ea1X2wVm8BqEIKrl2eemWxjj84cNs10IRksoFVQ=h900-rw"
-                ]
-            },
-            {
-                "enabled":[
-                    "mobile"
-                ],
-                "title":"Younility for iOS",
-                "description":"Make Work Simple",
-                "url":"https://itunes.apple.com/us/app/younility/id865948605?mt=8",
-                "tags":[
-                    "ios",
-                    "younility"
-                ],
-                "images":[
-                    "http://a5.mzstatic.com/us/r30/Purple7/v4/5a/50/20/5a502032-ab95-4c0a-df0d-f860ecea6324/screen568x568.jpeg",
-                    "http://a2.mzstatic.com/us/r30/Purple7/v4/c8/6f/e0/c86fe0a9-2c44-f913-f1e1-2f1876c0b9c9/screen568x568.jpeg",
-                    "http://a5.mzstatic.com/us/r30/Purple1/v4/3c/5a/b2/3c5ab2a4-aa0c-e161-5dee-05ad38296952/screen568x568.jpeg",
-                    "http://a5.mzstatic.com/us/r30/Purple7/v4/1e/68/dd/1e68ddd2-1482-ebf8-74c5-abfedf8d654f/screen568x568.jpeg",
-                    "http://a5.mzstatic.com/us/r30/Purple5/v4/17/30/53/173053e7-8ab1-a021-906d-7557827126e7/screen568x568.jpeg"
-                ]
-            },
-            {
-                "enabled":[
-                    "mobile"
-                ],
-                "title":"Media Shuttle Mobile",
-                "description":"Media Shuttle, from Signiant, is the easiest, most reliable way to send any size file, anywhere fast.",
-                "url":"https://itunes.apple.com/ca/app/media-shuttle-mobile/id885878921?mt=8",
-                "tags":[
-                    "ios",
-                    "signiant"
-                ],
-                "images":[
-                    "http://a5.mzstatic.com/us/r30/Purple4/v4/ae/4b/ae/ae4bae9a-3cdf-5d81-fc7f-2e3131b00cc0/screen568x568.jpeg"
-                ]
-            },
-            {
-                "enabled":[
-                    "mobile"
-                ],
-                "title":"InteleConnect",
-                "description":"InteleConnect™, designed specifically for referring physicians to conveniently deliver high-quality medical imaging studies and notifications on iPad®, iPhone®, and iPod touch®.",
-                "url":"https://itunes.apple.com/ca/app/inteleconnect/id562270725?mt=8",
-                "tags":[
-                    "ios",
-                    "intelerad"
-                ],
-                "images":[
-                    "http://a3.mzstatic.com/us/r30/Purple/v4/0d/fb/be/0dfbbefc-f074-fe3d-42f6-666d71b9c293/screen568x568.jpeg",
-                    "http://a5.mzstatic.com/us/r30/Purple/v4/1c/27/86/1c278689-8972-ce42-847a-9240a81a4395/screen568x568.jpeg",
-                    "http://a4.mzstatic.com/us/r30/Purple/v4/a0/56/0e/a0560e83-b129-2bb5-b388-883e6471538e/screen568x568.jpeg"
-                ]
-            }
-        ]
+        "items":[{
+            "enabled":["mobile"],
+            "title":"KeyPeeps",
+            "description":"World's first keyboard compliment that gives you access to your contacts",
+            "url":"https://play.google.com/store/apps/details?id=ca.vijaysharma.contacts",
+            "tags":["android"],
+            "images":[
+                "https://lh3.googleusercontent.com/9J5nf5QoblmwaDNPLRV23LrMe7k-hGCYJ9VsgxapOT8wwWusNi4XpLTmjgtbSNycNf0=h310-rw",
+                "https://lh3.googleusercontent.com/E5vBkSqiY3UgxOJQLrv97NZdnq21M4knSlcTTCdd-60eMMdBZEAPnnZFlaLl1wfwxLI=h310-rw",
+                "https://lh3.googleusercontent.com/g3uxBJf53cK4uKOl91Ri2O3b32uVIp0MqIYeHZOXd0CDJAheI86Itc75TOy7QWlfvpsh=h310-rw",
+                "https://lh3.googleusercontent.com/E0rwMmEXQFpNw0IgNQC5D8HRtySu2K5VZik7ZkFJ1-NRI_xWnG9EVS3XkitLkWqDe7I=h310-rw"
+            ]
+        }, {
+            "enabled":["mobile"],
+            "title":"PixPass",
+            "description":"The best image-keyboard-password manager ever!",
+            "url":"https://play.google.com/store/apps/details?id=ca.vijaysharma.password",
+            "tags":["android"],
+            "images":[
+                "https://lh3.googleusercontent.com/Yg8j1l7b78KqGsQhmt1YjlvVAcXMLf2XqcKRezXVmXjqL8K3Y-SzFD3zLpKE_h9q92Va=h900-rw",
+                "https://lh3.googleusercontent.com/2vYsXpssAd2pQTGQHVgAeWYxzIn1oNnwX5CVMmHYXmZydaaelu7yitp86xthJhk7Vvw=h900-rw",
+                "https://lh3.googleusercontent.com/KYuKvPJYQiVSnjL5Ry6boDDAB7HQWpdqe1CWDAbtrNrBSdMCYnNcwJxdoCXgisAi4r-f=h900-rw",
+                "https://lh3.googleusercontent.com/9-eLvkGN8YQriBHxByG6qTYSYsIdAPv3_lOZi_s4qU3lx4Vm2oU03uBKJ6ht0m2QEw=h900-rw"
+            ]
+        }, {
+            "enabled":["mobile"],
+            "title":"KwiltKeys",
+            "description":"KwiltKeys is the world's first photo keyboard that offers the best workflow to find and share your photos from anywhere. And it’s A-awesome!",
+            "url":"https://itunes.apple.com/us/app/kwiltkeys-photo-keyboard-share/id1003799569?mt=8",
+            "tags":["ios", "kwilt"],
+            "images":[
+                "http://a4.mzstatic.com/us/r30/Purple6/v4/ef/c8/38/efc838fc-b125-0656-d03e-0c5e65795e53/screen322x572.jpeg",
+                "http://a5.mzstatic.com/us/r30/Purple3/v4/6b/3d/55/6b3d55cb-fc42-245d-fbba-1079a2d1cd10/screen322x572.jpeg",
+                "http://a3.mzstatic.com/us/r30/Purple3/v4/f2/63/87/f263873e-5cc9-143e-96c5-6b8e6c240a33/screen322x572.jpeg",
+                "http://a2.mzstatic.com/us/r30/Purple6/v4/fe/98/70/fe9870a6-afcc-1df9-8494-0e2de8ebe647/screen322x572.jpeg",
+                "http://a5.mzstatic.com/us/r30/Purple3/v4/cd/cd/3e/cdcd3ec5-795a-6be3-d6c0-d4b88a2a1bfa/screen322x572.jpeg"
+            ]
+        }, {
+            "enabled": ["mobile"],
+            "title": "Resume",
+            "description": "It's my resume!",
+            "url": "https://play.google.com/store/apps/details?id=ca.vijaysharma.resume",
+            "tags":["android"],
+            "images":[
+                "https://lh3.googleusercontent.com/WT-9rFWfVZSn9Cy7gESIKmeSXHWM9IhvTvYv9IjJFrKAlwNHalsNctXTPeXvKGmTCMQ6=h310-rw",
+                "https://lh3.googleusercontent.com/ACEhOkWf5K0darp5l1b8wOQvsDpsC8xYUkXD4007smjcrIubwdNsbvyHIl6ZBaBLyg=h310-rw",
+                "https://lh3.googleusercontent.com/sz9neeT0FgUwehZKMWREyZJBZlU0smTSMkembCpo-qXQxAuqaXUQNSwTj8fKjvrqpN8=h310-rw",
+                "https://lh3.googleusercontent.com/CkmIU3x0Huw6g8g5bmbfuOceiXeSoinMQCUaC4el5SiCofLak9-vrLLUxu9j76rnOz8=h310-rw",
+                "https://lh3.googleusercontent.com/R_4V_g_WqlTN3UyChY_vz0ynYBKOwxaSc7ocEgtwCEJ_C4LuLpuYdtb6RVSQSeLGtjvf=h310-rw",
+                "https://lh3.googleusercontent.com/sbZjfvzdWJcTpKy0SuGpQSBa4BXLTEKbYbJQw3xkiQyOho-Y3AzMx7T7hXJkUQOQaEoZ=h310-rw",
+                "https://lh3.googleusercontent.com/Q54o9L-hgqZv42JuBrr3Dy5kTH03IBMTqRco-ytve2KXpw470gUSMSCJJjpMn_bMXym9=h310-rw"
+            ]
+        }, {
+            "enabled":["mobile"],
+            "title":"Kwilt Photos",
+            "description":"The Universal Photo Roll: View, Edit and Share Your Photos",
+            "url":"https://itunes.apple.com/app/kwilt/id929742170?mt=8&ign-mpt=uo%3D2",
+            "tags":["ios", "kwilt"],
+            "images":[
+                "http://a3.mzstatic.com/us/r30/Purple7/v4/28/8d/6a/288d6a78-594b-ccc7-eb99-3b3809340724/screen322x572.jpeg",
+                "http://a1.mzstatic.com/us/r30/Purple5/v4/25/0f/a6/250fa631-af33-9922-9794-55ec2a6d484a/screen322x572.jpeg",
+                "http://a2.mzstatic.com/us/r30/Purple7/v4/98/18/cd/9818cdf9-e483-0f8f-75a9-a9a8e7aac271/screen322x572.jpeg",
+                "http://a1.mzstatic.com/us/r30/Purple5/v4/3b/b4/3a/3bb43a66-f4d5-43ce-70a9-328522b5bc6c/screen322x572.jpeg",
+                "http://a2.mzstatic.com/us/r30/Purple1/v4/f8/45/d2/f845d263-b9a2-ea31-d9d6-4658b6823f1d/screen322x572.jpeg"
+            ]
+        }, {
+            "enabled":["mobile"],
+            "title":"Younility for Android",
+            "description":"Make Work Simple",
+            "url":"https://play.google.com/store/apps/details?id=com.touchfleet.dispatch&hl=en",
+            "tags":["android", "younility"],
+            "images":[
+                "https://lh3.googleusercontent.com/JgDSv0hm2gmJ5lKqTT7APuVVrfFKoA85V8HPkFmdA95hIPnguEJwmozsSLS4IOAucg=h900-rw",
+                "https://lh3.googleusercontent.com/gZ8pPqR8FYRxQuSTJN9N6kAlGzxaA7X96wPt36VmZMxDiIDA1aP9MVBacFX-s7um0UKE=h900-rw",
+                "https://lh3.googleusercontent.com/LWmCGoQt-271RBAB695RfATLAl-rF-zvsJ3jNkjjqQc0f5mTZq52eihVPfn0ikclmDI=h900-rw",
+                "https://lh3.googleusercontent.com/3qZGBzqGjQBxSanCLP2fnVBqyMx7L90ELlg_67bnNSXu-5moixftCdJDgmSQj5nItLg=h900-rw",
+                "https://lh3.googleusercontent.com/21CJHIdw-WRx5Cv7o4AcwK8cPV_Ea1X2wVm8BqEIKrl2eemWxjj84cNs10IRksoFVQ=h900-rw"
+            ]
+        }, {
+            "enabled":["mobile"],
+            "title":"Younility for iOS",
+            "description":"Make Work Simple",
+            "url":"https://itunes.apple.com/us/app/younility/id865948605?mt=8",
+            "tags":["ios", "younility"],
+            "images":[
+                "http://a5.mzstatic.com/us/r30/Purple7/v4/5a/50/20/5a502032-ab95-4c0a-df0d-f860ecea6324/screen568x568.jpeg",
+                "http://a2.mzstatic.com/us/r30/Purple7/v4/c8/6f/e0/c86fe0a9-2c44-f913-f1e1-2f1876c0b9c9/screen568x568.jpeg",
+                "http://a5.mzstatic.com/us/r30/Purple1/v4/3c/5a/b2/3c5ab2a4-aa0c-e161-5dee-05ad38296952/screen568x568.jpeg",
+                "http://a5.mzstatic.com/us/r30/Purple7/v4/1e/68/dd/1e68ddd2-1482-ebf8-74c5-abfedf8d654f/screen568x568.jpeg",
+                "http://a5.mzstatic.com/us/r30/Purple5/v4/17/30/53/173053e7-8ab1-a021-906d-7557827126e7/screen568x568.jpeg"
+            ]
+        }, {
+            "enabled":["mobile"],
+            "title":"Media Shuttle Mobile",
+            "description":"Media Shuttle, from Signiant, is the easiest, most reliable way to send any size file, anywhere fast.",
+            "url":"https://itunes.apple.com/ca/app/media-shuttle-mobile/id885878921?mt=8",
+            "tags":["ios", "signiant"],
+            "images":[
+                "http://a5.mzstatic.com/us/r30/Purple4/v4/ae/4b/ae/ae4bae9a-3cdf-5d81-fc7f-2e3131b00cc0/screen568x568.jpeg"
+            ]
+        }, {
+            "enabled":["mobile"],
+            "title":"InteleConnect",
+            "description":"InteleConnect™, designed specifically for referring physicians to conveniently deliver high-quality medical imaging studies and notifications on iPad®, iPhone®, and iPod touch®.",
+            "url":"https://itunes.apple.com/ca/app/inteleconnect/id562270725?mt=8",
+            "tags":["ios","intelerad"],
+            "images":[
+                "http://a3.mzstatic.com/us/r30/Purple/v4/0d/fb/be/0dfbbefc-f074-fe3d-42f6-666d71b9c293/screen568x568.jpeg",
+                "http://a5.mzstatic.com/us/r30/Purple/v4/1c/27/86/1c278689-8972-ce42-847a-9240a81a4395/screen568x568.jpeg",
+                "http://a4.mzstatic.com/us/r30/Purple/v4/a0/56/0e/a0560e83-b129-2bb5-b388-883e6471538e/screen568x568.jpeg"
+            ]
+        }]
     }
 }
