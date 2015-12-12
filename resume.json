@@ -27,7 +27,7 @@
                 "start_date": "2015-09-01T00:00:00.000-03:00",
                 "end_date": "present",
                 "responsibilities": [
-                    "Extract existing Android code base into reuseable SDK used by thousands of developers on millions of devices",
+                    "Extract existing Android code base into reusable SDK used by thousands of developers on millions of devices",
                     "Developed plugins for Xamarin, Unity, Cordova and Adobe Air to expand user reach",
                     "Developed novel solutions included in proprietary testing library"
                 ],
