@@ -1,0 +1,17 @@
+{
+	"companies":[{
+		"name": "TestFairy",
+		"short_name": "TestFairy",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
+		"primary_color": "#000000",
+		"secondary_color": "#000000",
+		"tertiary_color": "#000000"
+	}, {
+		"name": "TestFairy",
+		"short_name": "TestFairy",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
+		"primary_color": "#000000",
+		"secondary_color": "#000000",
+		"tertiary_color": "#000000"
+	}]
+}
