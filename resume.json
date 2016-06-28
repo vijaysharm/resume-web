@@ -19,7 +19,6 @@
         "label": "Professional Experience",
         "companies": [{
             "location": "TestFairy",
-            "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
             "address": "Israel",
             "site": "https://www.testfairy.com",
             "summary": "TestFairy makes app testing and metric gathering easy",
@@ -38,7 +37,6 @@
             "references":[{"name":"Gil Megidish", "position":"CTO", "contact":"gil@testfairy.com"}]
         }, {
             "location": "Beam Interactive",
-            "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
             "address": "Seattle, Washington",
             "site": "https://beam.pro/",
             "summary": "We're making gaming live-streams interactive. Stop watching. Start playing.",
@@ -52,7 +50,7 @@
                     "Redesigned Android application from ground up for improved user experience",
                     "Developed in house Android libraries for realtime video streaming",
                     "Implemented realtime chat, and interactive controls using Websockets",
-                    "Managed releases to Google Play Store, improved rating from 3.0 to 3.8 in 3 months",
+                    "Managed releases to Google Play and Amazon App Store, improving rating from 3.0 to 3.8 in 3 months",
                     "Helped team win TechCrunch Disrupt NYC 2016"
                 ]
             }],
@@ -61,7 +59,6 @@
             ]
         }, {
             "location": "Kwilt",
-            "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
             "address": "Ottawa, Ontario",
             "site": "https://www.kwiltapp.com",
             "summary": "Taking your photo experience to the next level",
@@ -85,7 +82,6 @@
             ]
         }, {
             "location": "Datacap Systems Inc",
-            "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
             "address": "Chalfont, Philadelphia",
             "site": "https://www.datacapsystems.com",
             "summary": "Datacap develops payment interfaces used by hundreds of PC-based, mobile, and embedded Point of Sale Systems.",
@@ -108,7 +104,6 @@
             ]
         }, {
             "location": "Younility",
-            "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
             "address": "Ottawa, Ontario",
             "site": "https://www.younility.com",
             "summary": "Leaders in field communication software",
@@ -135,7 +130,6 @@
         },
             {
                 "location":"Signiant",
-                "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
                 "address":"Ottawa, Ontario",
                 "site":"https://www.signiant.com",
                 "summary":"Helps distributors ensure fast, secure delivery of large files over public and private networks.",
@@ -183,7 +177,6 @@
             },
             {
                 "location":"Intelerad Medical Systems",
-                "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
                 "address":"Montreal, Quebec",
                 "site":"https://www.intelerad.com",
                 "summary":"Provides medical imaging solutions and services to radiology groups, hospitals, imaging centers, and teleradiology businesses.",
@@ -289,7 +282,6 @@
             },
             {
                 "location":"Robarts Research Imaging Institute",
-                "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
                 "address":"London, Ontario",
                 "site":"http://www.robarts.ca",
                 "summary":"Bringing medical discoveries and new technologies faster to clinical trials, faster to market, and, ultimately, faster to customers",
@@ -326,7 +318,6 @@
             },
             {
                 "location":"Concordia University",
-                "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
                 "address":"Montreal, Quebec",
                 "site":"http://www.concordia.ca",
                 "summary":"A comprehensive university searching for innovative solutions and make positive contributions to society, powering Montreal and connecting students to the world.",
@@ -361,7 +352,6 @@
             },
             {
                 "location":"Nuance Communications",
-                "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
                 "address":"Montreal, Quebec",
                 "site":"http://www.nuance.com",
                 "summary":"Reinventing the relationship between people and technology",
@@ -393,7 +383,6 @@
             },
             {
                 "location":"Speechworks",
-                "logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
                 "address":"Montreal, Quebec",
                 "site":"http://www.nuance.com",
                 "positions":[

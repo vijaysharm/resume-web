@@ -3,15 +3,124 @@
 		"name": "TestFairy",
 		"short_name": "TestFairy",
 		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
-		"primary_color": "#000000",
-		"secondary_color": "#000000",
-		"tertiary_color": "#000000"
+		"primary_color": "#E83400",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
 	}, {
-		"name": "TestFairy",
+		"name": "Beam Interactive",
+		"short_name": "Beam",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
+		"primary_color": "#E83400",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "Kwilt",
+		"short_name": "Kwilt",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/kwilt.jpg",
+		"primary_color": "#DB2B5D",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "Datacap Systems Inc",
 		"short_name": "TestFairy",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/datacap.png",
+		"primary_color": "#B50021",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "Younility",
+		"short_name": "Younility",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/younility.png",
+		"primary_color": "#F27629",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "Signiant",
+		"short_name": "Signiant",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/signiant.png",
+		"primary_color": "#C1D72E",
+		"secondary_color": "#000000",
+		"tertiary_color": "#FFFFFF"
+	}, {
+		"name": "Intelerad Medical Systems",
+		"short_name": "Intelerad",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/intelerad.jpg",
+		"primary_color": "#EC1B30",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "Nuance Communications",
+		"short_name": "Nuance",
 		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
 		"primary_color": "#000000",
-		"secondary_color": "#000000",
-		"tertiary_color": "#000000"
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "Concordia University",
+		"short_name": "Concordia",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/concordia.jpg",
+		"primary_color": "#8C263B",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "Speechworks",
+		"short_name": "Speechworks",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
+		"primary_color": "#000000",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "Robarts Research Imaging Institute",
+		"short_name": "Robarts",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/robarts.png",
+		"primary_color": "#1279C7",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}],
+	"education":[{
+		"name": "The University of Western Ontario",
+		"short_name": "TestFairy",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/western_256.jpg",
+		"primary_color": "#4F2E84",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "Concordia University",
+		"short_name": "TestFairy",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/concordia.jpg",
+		"primary_color": "#8C263B",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}],
+	"skills": [{
+		"name": "android",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/android_256.png",
+		"primary_color": "#79C05E",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "ios",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/apple_256.png",
+		"primary_color": "#656565",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "web",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/html5_256.png",
+		"primary_color": "#EF6534",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "server",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/cloud_256.png",
+		"primary_color": "#000000",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
+	}, {
+		"name": "db",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/storage_256.png",
+		"primary_color": "#000000",
+		"secondary_color": "#FFFFFF",
+		"tertiary_color": "#8c8c8c"
 	}]
 }
