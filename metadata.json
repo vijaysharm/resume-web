@@ -22,7 +22,7 @@
 		"tertiary_color": "#8c8c8c"
 	}, {
 		"name": "Datacap Systems Inc",
-		"short_name": "TestFairy",
+		"short_name": "Datacap Systems",
 		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/datacap.png",
 		"primary_color": "#B50021",
 		"secondary_color": "#FFFFFF",
@@ -79,14 +79,14 @@
 	}],
 	"education":[{
 		"name": "The University of Western Ontario",
-		"short_name": "TestFairy",
+		"short_name": "U. Western Ontario",
 		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/western_256.jpg",
 		"primary_color": "#4F2E84",
 		"secondary_color": "#FFFFFF",
 		"tertiary_color": "#8c8c8c"
 	}, {
 		"name": "Concordia University",
-		"short_name": "TestFairy",
+		"short_name": "Concordia",
 		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/concordia.jpg",
 		"primary_color": "#8C263B",
 		"secondary_color": "#FFFFFF",
