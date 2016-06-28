@@ -9,8 +9,8 @@
 	}, {
 		"name": "Beam Interactive",
 		"short_name": "Beam",
-		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/testfairy.jpeg",
-		"primary_color": "#E83400",
+		"logo": "https://cdn.rawgit.com/vijaysharm/resume-android/master/images/beam.png",
+		"primary_color": "#221F57",
 		"secondary_color": "#FFFFFF",
 		"tertiary_color": "#8c8c8c"
 	}, {
