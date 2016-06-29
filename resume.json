@@ -683,7 +683,13 @@
             "url":"https://play.google.com/store/apps/details?id=com.mcprohosting.beam&hl=en",
             "tags":["android", "beam"],
             "images":[
-                "http://a4.mzstatic.com/us/r30/Purple6/v4/ef/c8/38/efc838fc-b125-0656-d03e-0c5e65795e53/screen322x572.jpeg"
+                "https://rawgit.com/vijaysharm/resume-android/master/images/beam_01.png",
+                "https://rawgit.com/vijaysharm/resume-android/master/images/beam_02.png",
+                "https://rawgit.com/vijaysharm/resume-android/master/images/beam_03.png",
+                "https://rawgit.com/vijaysharm/resume-android/master/images/beam_04.png",
+                "https://rawgit.com/vijaysharm/resume-android/master/images/beam_05.png",
+                "https://rawgit.com/vijaysharm/resume-android/master/images/beam_06.png",
+                "https://rawgit.com/vijaysharm/resume-android/master/images/beam_07.png"
             ]
         }, {
             "enabled":["mobile"],
