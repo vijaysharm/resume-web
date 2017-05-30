@@ -23,7 +23,7 @@
             "site": "https://www.testfairy.com",
             "summary": "TestFairy makes app testing and metric gathering easy",
             "positions": [{
-                "name": "Android Consultant (contract)",
+                "name": "Primary Mobile Consultant",
                 "start_date": "2015-09-01T00:00:00.000-03:00",
                 "end_date": "present",
                 "responsibilities": [
@@ -35,6 +35,46 @@
                 "technologies": ["Android", "IntelliJ IDEA", "Ant", "Xamarin", "Unity", "Cordova", "Adobe Air"]
             }],
             "references":[{"name":"Gil Megidish", "position":"CTO", "contact":"gil@testfairy.com"}]
+        }, {
+            "location": "Ray Wenderlich",
+            "address": "Gaheysville, Virginia",
+            "site": "https://www.raywenderlich.com/",
+            "summary": "Developing high quality programming tutorials.",
+            "positions": [{
+                "name": "Android Technical Editor",
+                "start_date": "2016-06-01T00:00:00.000-03:00",
+                "end_date": "present",
+                "enabled": ["mobile", "web"],
+                "technologies": ["Android", "Android Studio", "Wordpress", "Markdown", "Kotlin", "Java"],
+                "responsibilities": [
+                    "Technical editor for Android Apprentice",
+                    "Technical editor for Kotlin for Android: An Introduction",
+                    "Technical editor for Mobile Vision on Android"
+                ]
+            }],
+            "references":[
+                { "name":"Matt Luedke", "position":"Android Team Lead", "contact":"matt@mattluedke.com" },
+                { "name":"Chris Belanger", "position":"Razeware Team Lead", "contact":"chris@razeware.com" },
+            ]
+        }, {
+            "location": "IQzone",
+            "address": "Scottsdale, Arizona",
+            "site": "http://iqzone.com/",
+            "summary": "Mobile Advertising Solutions",
+            "positions": [{
+                "name": "iOS Engineer (Consultant)",
+                "start_date": "2017-03-01T00:00:00.000-03:00",
+                "end_date": "2017-07-01T00:00:00.000-03:00",
+                "enabled": ["mobile", "web"],
+                "technologies": ["iOS", "XCode", "Objective-C", "J2ObjC", "VAST", "MRAID", "Advertising"],
+                "responsibilities": [
+                    "Implemented iOS SDK for mobile advertising solution from scratch",
+                    "Managed remote contractors brought in for tight deadline"
+                ]
+            }],
+            "references":[
+                { "name":"Matthew A. Feadler", "position":"Chief Technology Officer", "contact":"mattfeadler@iqzone.com" }
+            ]
         }, {
             "location": "Beam Interactive",
             "address": "Seattle, Washington",
