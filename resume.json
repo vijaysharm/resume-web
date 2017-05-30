@@ -27,9 +27,9 @@
                 "start_date": "2015-09-01T00:00:00.000-03:00",
                 "end_date": "present",
                 "responsibilities": [
-                    "Extract existing Android code base into reusable SDK used by thousands of developers on millions of devices",
+                    "Developed and maintained iOS and Android SDK used by thousands of developers on millions of devices",
                     "Developed plugins for Xamarin, Unity, Cordova and Adobe Air to expand user reach",
-                    "Developed novel solutions included in proprietary testing library"
+                    "Implemented numerous feature to expand beta testing platform"
                 ],
                 "enabled": ["mobile", "web"],
                 "technologies": ["Android", "IntelliJ IDEA", "Ant", "Xamarin", "Unity", "Cordova", "Adobe Air"]
@@ -54,7 +54,7 @@
             }],
             "references":[
                 { "name":"Matt Luedke", "position":"Android Team Lead", "contact":"matt@mattluedke.com" },
-                { "name":"Chris Belanger", "position":"Razeware Team Lead", "contact":"chris@razeware.com" },
+                { "name":"Chris Belanger", "position":"Razeware Team Lead", "contact":"chris@razeware.com" }
             ]
         }, {
             "location": "IQzone",
