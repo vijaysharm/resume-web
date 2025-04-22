@@ -224,10 +224,7 @@
             border-right: 1px solid gray;
         }
 
-        .education_container {
-            border-bottom: 1px solid gray;
-            padding-bottom: 12px;
-        }
+        .education_container {}
 
         .education_items {
             display: flex;
@@ -267,6 +264,11 @@
         .skills_container {
             border-bottom: 1px solid gray;
             padding-bottom: 12px;
+        }
+
+        .projects_container {
+            padding-bottom: 12px;
+            border-bottom: 1px solid gray;
         }
 
         .project_items {
@@ -520,29 +522,54 @@ by hundreds of enterprise customers.
 
 
         <div class="side_container">
-            <div class="education_container">
-                <div class="section_title education_title">Education</div>
-                <div class="section_items education_items">
-
-                    <div class="education">
-                        <div class="title">Master of Engineering Sciences</div>
-                        <div class="institution">The University of Western Ontario</div>
-                        <div class="dates">09/2005 - 09/2007</div>
+            <div class="projects_container">
+                <div class="section_title project_title">Projects</div>
+                <div class="section_items project_items">
+                    <div class="project">
+                        <a href="https://apps.apple.com/ca/app/everand-ebooks-and-audiobooks/id542557212" class="name">Everand</a>
+                        <div class="summary_items">
+                            <div class="summary">
+                                A digital library for ebooks, audiobooks and podcasts, for iOS, iPad, watchOS and CarPlay
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="education">
-                        <div class="title">Bachelor of Electrical and Computer Engineering</div>
-                        <div class="institution">Concordia University</div>
-                        <div class="dates">09/2001 - 05/2005</div>
+                    <div class="project">
+                        <a href="https://mlfairy.com/" class="name">MLFairy</a>
+                        <div class="summary_items">
+                            <div class="summary">Encrypt and collect in-app predictions from you CoreML model. Securely
+                                deploy updates to your improved model.</div>
+                        </div>
                     </div>
 
+                    <div class="project">
+                        <a href="https://store.kodeco.com/products/machine-learning-by-tutorials" class="name">Machine
+                            Learning by Tutorials</a>
+                        <div class="summary_items">
+                            <div class="summary">Begin Machine Learning for Apple and iOS.</div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <a href="https://vijaysharma.ca/apps/codecomplete/index.html" class="name">Code Complete</a>
+                        <div class="summary_items">
+                            <div class="summary">The ultimate resource to prepare for coding interviews on iOS.</div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="project">
+                        <a href="https://vijaysharma.ca/apps/superhero-colouring-book/" class="name">Colouring Superheroes</a>
+                        <div class="summary_items">
+                            <div class="summary">Brings your favourite superheroes to life.</div>
+                        </div>
+                    </div> -->
                 </div>
             </div>
+
 
             <div class="skills_container">
                 <div class="section_title skill_title">Expertise</div>
                 <div class="section_items skill_items">
-
                     <div class="skill">
                         <div class="name">iOS</div>
                     </div>
@@ -600,97 +627,20 @@ by hundreds of enterprise customers.
                 </div>
             </div>
 
+            <div class="education_container">
+                <div class="section_title education_title">Education</div>
+                <div class="section_items education_items">
 
-            <div class="certificates_container" style="display: none;">
-                <div class="section_title certificate_title">Certificates</div>
-                <div class="section_items certificate_items">
-
-                    <div class="certificate">
-                        <div class="title">Deep Learning Specialization</div>
-                        <div class="institution">Coursera</div>
-                        <div class="dates">2018</div>
-
-
+                    <div class="education">
+                        <div class="title">Master of Engineering Sciences</div>
+                        <div class="institution">The University of Western Ontario</div>
+                        <div class="dates">09/2005 - 09/2007</div>
                     </div>
 
-                    <div class="certificate">
-                        <div class="title">Programming Cloud Services for Mobile Systems</div>
-                        <div class="institution">Coursera</div>
-                        <div class="dates">2014</div>
-
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="awards_container" style="display: none;">
-                <div class="section_title award_title">Awards</div>
-                <div class="section_items award_items">
-
-                    <div class="award">
-                        <div class="name">Beyond the Call of Duty</div>
-                        <div class="institution">Intelerad Medical System</div>
-                        <div class="year">2025</div>
-                    </div>
-
-                    <div class="award">
-                        <div class="name">Culture Creature</div>
-                        <div class="institution">Intelerad Medical Systems</div>
-                        <div class="year">2025</div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="projects_container">
-                <div class="section_title project_title">Projects</div>
-                <div class="section_items project_items">
-
-                    <div class="project">
-                        <a href="https://mlfairy.com/" class="name">MLFairy</a>
-
-                        <div class="summary_items">
-
-                            <div class="summary">Encrypt and collect in-app predictions from you CoreML model. Securely
-                                deploy updates to your improved model.</div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="project">
-                        <a href="https://store.kodeco.com/products/machine-learning-by-tutorials" class="name">Machine
-                            Learning by Tutorials</a>
-
-                        <div class="summary_items">
-
-                            <div class="summary">Begin Machine Learning for Apple and iOS.</div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="project">
-                        <a href="https://vijaysharma.ca/apps/codecomplete/index.html" class="name">Code Complete</a>
-
-                        <div class="summary_items">
-
-                            <div class="summary">The ultimate resource to prepare for coding interviews.</div>
-
-                        </div>
-
-                    </div>
-
-                    <div class="project">
-                        <a href="https://vijaysharma.ca/apps/superhero-colouring-book/" class="name">Colouring Superheroes</a>
-
-                        <div class="summary_items">
-
-                            <div class="summary">Bring your favourite superheroes to life!</div>
-
-                        </div>
-
+                    <div class="education">
+                        <div class="title">Bachelor of Electrical and Computer Engineering</div>
+                        <div class="institution">Concordia University</div>
+                        <div class="dates">09/2001 - 05/2005</div>
                     </div>
 
                 </div>
