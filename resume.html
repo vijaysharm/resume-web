@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)file:///Users/vijays/Downloads/resume.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/
+			   v2.0 | 20110126
+			   License: none (public domain)
+			*/
+
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+            overflow: hidden;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        blockquote,
+        q {
+            quotes: none;
+        }
+
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+    </style>
+    <style>
+        div {
+            font-size: 12px;
+            font-family: Avenir;
+        }
+
+        .profile_title,
+        .section_title {
+            letter-spacing: .13rem;
+            text-transform: uppercase;
+            font-weight: 1000;
+            padding: 12px 0;
+        }
+
+        .body {
+            display: grid;
+            grid-template-columns: 25% 45% 30%;
+            padding: 24px;
+        }
+
+        .header {
+            grid-column: 1 / span 3;
+            display: grid;
+            grid-template-columns: 28% 43%;
+            margin-bottom: 12px;
+        }
+
+        .profile_name {
+            grid-area: 1 / 1 / 2 / 3;
+            font-size: 60px;
+            font-family: Gabriola;
+        }
+
+        .profile_title {
+            grid-area: 2 / 1 / 3 / 3;
+        }
+
+        .profile_about {
+            grid-area: 4 / 1 / 5 / 4;
+            border-bottom: 1px solid gray;
+            line-height: 1.4;
+            padding-bottom: 12px;
+            border-top: 1px solid gray;
+        }
+
+        .contact_container {
+            grid-area: 1 / 3 / 3 / 4;
+            padding-bottom: 8px;
+        }
+
+        .profile_section_title {
+            grid-area: 3 / 1 / 4 / 4;
+            border-top: 1px solid gray;
+        }
+
+        .contact>img {
+            width: 12px;
+            align-self: center;
+        }
+
+        .contact>.text {
+            display: inline-block;
+            align-self: center;
+        }
+
+        .contact {
+            display: grid;
+            grid-template-columns: 12% auto;
+            padding-bottom: 4px;
+        }
+
+        .experience_container {
+            grid-column: 2 / span 3;
+            grid-row: 2;
+            padding-left: 16px;
+        }
+
+        .side_container {
+            padding-right: 16px;
+
+            grid-column: 1 / span 1;
+            grid-row: 2;
+            border-right: 1px solid gray;
+        }
+
+        .education_container {
+            border-bottom: 1px solid gray;
+            padding-bottom: 12px;
+        }
+
+        .education_items {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .education {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .education>.title {
+            font-weight: 550;
+            line-height: 1.2em;
+        }
+
+        .education>.dates {
+            font-size: 8px;
+        }
+
+        .skill_items {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2px;
+        }
+
+        .skill>.name {
+            background: black;
+            font-size: 10px;
+            color: white;
+            padding: 3px 4px;
+            border-radius: 2px;
+        }
+
+        .skills_container {
+            border-bottom: 1px solid gray;
+            padding-bottom: 12px;
+        }
+
+        .project_items {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .project {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .project>.name {
+            text-decoration: none;
+            font-weight: 900;
+            text-decoration: underline;
+            color: black;
+            line-height: 1.2em;
+        }
+
+        .project>.link {
+            display: none;
+        }
+
+        .project .summary {
+            line-height: 1.3em;
+        }
+
+        .experience>.title {
+            font-weight: 550;
+        }
+
+        .experience_items {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .experience {
+            display: grid;
+            grid-template-columns: 75% 25%;
+            gap: 2px;
+        }
+
+        .experience .title {
+            font-weight: bold;
+        }
+
+        .experience .title {}
+
+        .experience>.dates {
+            justify-self: right;
+            font-size: 9px;
+        }
+
+        .experience>.location {
+            justify-self: right;
+            font-style: italic;
+        }
+
+        .experience>.about {
+            grid-row: 3;
+            grid-column: 1 / span 2;
+            margin: 6px 0;
+            padding-left: 8px;
+            border-left: 4px #CCCCCCAA solid;
+            font-size: 9px;
+        }
+
+        .experience>.summary_items {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            grid-row: 4;
+            font-weight: 100;
+            line-height: 1.3em;
+            grid-column: 1 / span 2;
+        }
+
+        .experience>.summary_items>.summary {}
+
+        .experience>.summary_items>.summary::before {
+            content: '•';
+            margin-right: 4px;
+        }
+    </style>
+</head>
+
+<body style="overflow: scroll;">
+    <div class="body">
+        <div class="header">
+            <div class="profile_name">Vijay Sharma</div>
+            <div class="profile_title">Principal Mobile Engineer</div>
+            <div class="profile_about">
+                <div class="profile_title">Professional Summary</div>
+                Self-driven, innovative engineer with more than 20 years experience in software development, specializing in mobile and
+                full-stack development since 2010. Dedicated to getting things done, delivering high quality and engaging user
+                experience while leading with compassion and empathy.
+            </div>
+            <div class="contact_container">
+                <div class="contact email">
+                    <img class="img" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABMAAAANCAYAAABLjFUnAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAE6ADAAQAAAABAAAADQAAAAD/v3lFAAABLklEQVQoFa3SsUuCQRjH8bcI55b+iFq1psa2giADx4aGpN1WlyQXQaGpLUKiwSkXR4MIlyCy9ghBajGEHNL0+5O7l9d7X63BBz7cvc/d+/jce3reHGMhUGuXeQHL+A3ko6Z6L4Yz5N0NCRJ7uEYXw3+4Zc8G9jERWZ6a2IG6+8Ssguesq9AD7jARKqaXX5DCCd7hFuyRy2ALr2a9xjiORTsx4xpjEd84RRsqqFC3R/jAFVYRGbYz24naj2MbT3g28xXGRwxg9/qdLZF0o0FCN3SIHxxDx0sjaZ5LjLo092SkPM92VmeuS7hAB/r1N7TQN89lxnXow2vd74z5OFRMx9GxLvEFbZymwpo+wz1Ct7lJUrd4gy6mFQnmq+xTwQOEQsX++n8Fi2meC1WZV2IEBoVyQMJ/+WoAAAAASUVORK5CYII=">
+                    <div class="text">me@vijaysharma.ca</div>
+                </div>
+
+                <div class="contact phone">
+                    <img class="img" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAYAAAAmlE46AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAADqADAAQAAAABAAAAEAAAAABiIBAZAAAA6UlEQVQoFdXSOQrCQBTG8biAKB7AxgPYKdpYCRaewyN4EI/gGQRBPICFnQhWghY2FlqpIO7L/wuZIYkpRCsf/DIvb3gJszjOlxHz9WXJS6ggjjsSnhnjADe8RZ1KHzvMMcICB0xQho2kzRynSl7AEGo+YYkUimhgDDf8jcpX6OIMs4wLuZaRhg1/o4pX7HGEaVRNfw9EuFGT2hg1aVQoNx9xC3qYSVv4NPmjxvDmPFijtl87qVvz9N5VD0S4McdsDdp+0dmpKY8pIqNFdQv9ZYMOdKZ6lyYiQ19tQ4evm7OGLrWaesjg93gBtswvyuW7I+YAAAAASUVORK5CYII=">
+                    <div class="text">514-690-8458</div>
+                </div>
+
+                <div class="contact address">
+                    <img class="img" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAEKADAAQAAAABAAAADwAAAADW5XGhAAAA0klEQVQoFb3STwsBQRjH8cnfODggJaVF3olXoNzcpFwdvIV9C24O3ogcxV05KU4ulChJfKdm26kZ246DX316Zp6dZ3cUIf6cFN8r/fLNPEM9LLBCGbFS5NQQa7yVJTWDyNR4OsEOwaCsL3TxNW2e+DhCHwzWG/o5GGnQmeKC4LCtDoxJ1RhRH7jhqsi1/pIt+wKsSdOto4mWqh2q/pIxe6d4nJa3kbc4oAIjCaMTNpLhUsxYn7R9rKX8KXec4cGaqBs8mchijj2cI//3fVSdJ10GPmMlMzeDtBJ5AAAAAElFTkSuQmCC">
+                    <div class="text">Ottawa, ON, Canada</div>
+                </div>
+
+                <div class="contact github">
+                    <img class="img" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAADwAAAAAHNtsJAAABL0lEQVQoFa2SP0vCQRjHrz8kWENBSEMI0RsIGkQc/INDY7W2+RrsFQQRLTU5NtuUk9LSoG0WtfUKoigKdMgIIj/f6y4vTRf7wuee554/3vl7zpgxNDWkd4V4BnKwBO/QgpGKkS3BI3wF3OMfwQL8qTjRJoRN/X6DvA6wmnA2gj2DPGxCGnT1F1iEO7iGCpzCDnyC1TarTnmGn1+2md6im3VATdle2Jg6GzXXYCZMBH4U/xJUV1Z8UgtKfBtzhf1wfr95I3DjgklZ39x2QY1llPxf8vW29oRV13mAdRsZXFKEXkF1+2F6jY1meQi3UAJ/yjL+MTyBGjWBVfilA3ZV2IBdmAVJX1nfQY2iCAPSrHXCBeg1+WbdQE9TT3QPpmGoCmTOYc5VzGM1wi23/x/TBbN6QIyVeoGRAAAAAElFTkSuQmCC">
+                    <div class="text">vijaysharm</div>
+                </div>
+
+                <div class="contact website">
+                    <img class="img" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAEaADAAQAAAABAAAAEQAAAACOk5MBAAABbElEQVQ4Eb3SzyvDcRzH8e9YCZsfITVcOEnyI6mV1JKjnPgDXEhy9OPi4IwDpZxWzqQcbU1NNqUYZQcc1HIjhaz8fr7mu/rybV87yLse++y7z/v7+b7f7+8M4w+iMM8zXORVohRvJpav0OZvUU5CAC1wI4UoLpEJp0r0AB/m0IUD3KITA0jgDobTIXXsz6AMS4jjHNdoQhHO8J7rEC+bU6jBCvTUZ7zgHh404gTpAj5+hvruQSs2MYQJ6EaF2pRXk62dKjb6oEGq7HXohmGoqkPo8BHsQO1kpq1Vode3iBs8QTc9YBdqZRwXGEQKUXzAyLaj2czDi2VE0I1+6MAklNMAVbOAR3yLDq5UmkpV+apqGnuYhB/baINmoxxbjPJLDNbNEq6bEcAGZqGh2yLbzhU7taiwZKT5rpmMmesqq95IzlD5YayhGqqoHVsIQr/lFfVkhaB/5T5OoQGqLcewzkCJxeiFDjzCMf4nPgFZckV0nmvyPgAAAABJRU5ErkJggg==">
+                    <div class="text">vijaysharma.ca</div>
+                </div>
+
+                <div class="contact linkedin">
+                    <img class="img" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAD6ADAAQAAAABAAAADgAAAAA6VvK5AAABFElEQVQoFaXRP2oCQRTH8fVPUFCUVEoKJWIpgk3qVMHCE+QEtoIXyBmsRPAeaQIBsQhpbEQkTVDBNCpWEqPm+wNnWEdBxAcf582bnXXmreddEYH93jBjAY+4g+ZurCgM8I5v/2KFySd2Z6xZbyELL6gforj3xdjGGzZwQyfK414LZvMNufyggyG2OBURinJ0txy1Z8TRwwxL6B8foH7YUNEffSYNZDDHK3SiP1RRhw1zbFsgMTWNT1CDyphgARvmQVsgUccVWksihRjUg4M+uJv13VUzSO2GkCb+MHc2by2x+IIo9Kn0kjRq0DPKx1APbLdVkAxu4UbCV5iSi2eOMiL/RR66p47vhtY/0EQXB/dnfln8A4tuN2fd5/6VAAAAAElFTkSuQmCC">
+                    <div class="text">linkedin.com/in/vijaysharm</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="experience_container">
+            <div class="section_title experience_title">Work Experience</div>
+            <div class="section_items experience_items">
+                <div class="experience">
+                    <span class="title">Staff Software Engineer</span>
+                    <div class="dates">09/2024 - present</div>
+                    <span class="company">Scribd</span>
+                    <span class="location">Remote</span>
+            
+                    <div class="about">A digital content subscription service for audiobooks and ebooks at scale.</div>
+
+                    <div class="summary_items">
+                        <div class="summary">
+                            Architected greenfield implementation of core consumption experience using Swift 6, SwiftUI and The Composable Architecture, reducing playback latency by 35%.
+                        </div>
+                        <div class="summary">
+                            Improved GitHub CI/CD build servers to reduce the number of failed builds leading to over ten thousand a month in cost savings.
+                        </div>
+                        <div class="summary">
+                            Collaborated with cross-functional teams to define, design, and ship new core consumption experience, presenting weekly progress to stakeholders.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <span class="title">Team Lead</span>
+                    <div class="dates">03/2021 - 09/2024</div>
+                    <span class="company">Sauce Labs</span>
+                    <span class="location">Remote</span>
+
+                    <div class="about">Industry leader in automated testing for real mobile devices.</div>
+
+                    <div class="summary_items">
+                        <div class="summary">
+                            Established a culture of delivering, while prioritizing team health. My team was
+                            recognized by the CEO for its impactful and significant contributions to the product.
+                        </div>
+
+                        <div class="summary">
+                            Led the team in replacing existing web socket based video solution with with Web-RTC. Helped close several new and renewing deals generating 16 million in ARR.
+                        </div>
+
+                        <div class="summary">
+                            Recovered 2500 hours/day availability across all iOS devices by stabilizing device
+                            cleaning system. This improved device availability from 80% up to 97%.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <span class="title">Principal Mobile Engineer</span>
+                    <div class="dates">10/2015 - 03/2021</div>
+                    <span class="company">TestFairy</span>
+                    <span class="location">Remote</span>
+
+                    <div class="about">Enterprise-grade mobile app distribution.</div>
+
+                    <div class="summary_items">
+                        <div class="summary">
+                            Successfully helped grow the company form 10K AAR to 2M, which facilitated the sale
+of the company.
+                        </div>
+                        <div class="summary">
+                            Owned and developed native iOS and Android SDK used by thousands of developers.
+                        </div>
+                        <div class="summary">
+                            Helped reach four-9s availability in PHP developed backend with automated, zero
+downtime deployments of the service through CI.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <span class="title">Principal iOS Engineer</span>
+                    <div class="dates">01/2022 - 03/2023</div>
+                    <span class="company">CUE</span>
+                    <span class="location">Remote</span>
+
+                    <div class="about">
+                        Fan first mobile technology for premium brands and event experiences.
+                    </div>
+
+                    <div class="summary_items">
+                        <div class="summary">
+                            Reached 100% automated deployment pipeline of company's private iOS library used
+by hundreds of enterprise customers.
+                        </div>
+
+                        <div class="summary">
+                            Implemented server-driven UI, parameterizing hundreds of use cases in app, used by millions of users with limited network connectivity.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <span class="title">Senior Technical Editor</span>
+                    <div class="dates">06/2016 - 01/2023</div>
+                    <span class="company">Kodeco</span>
+                    <span class="location">Remote</span>
+                </div>
+
+                <div class="experience">
+                    <span class="title">Java Web Developer (Cloud Applications)</span>
+                    <div class="dates">02/2014 - 10/2015</div>
+                    <span class="company">Signiant</span>
+                    <span class="location">Ottawa</span>
+                </div>
+
+                <div class="experience">
+                    <span class="title">Member of Research and Development</span>
+                    <div class="dates">09/2007 - 02/2014</div>
+                    <span class="company">Intelerad Medical Systems</span>
+                    <span class="location">Montreal</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="side_container">
+            <div class="education_container">
+                <div class="section_title education_title">Education</div>
+                <div class="section_items education_items">
+
+                    <div class="education">
+                        <div class="title">Master of Engineering Sciences</div>
+                        <div class="institution">The University of Western Ontario</div>
+                        <div class="dates">09/2005 - 09/2007</div>
+                    </div>
+
+                    <div class="education">
+                        <div class="title">Bachelor of Electrical and Computer Engineering</div>
+                        <div class="institution">Concordia University</div>
+                        <div class="dates">09/2001 - 05/2005</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="skills_container">
+                <div class="section_title skill_title">Expertise</div>
+                <div class="section_items skill_items">
+
+                    <div class="skill">
+                        <div class="name">iOS</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Swift 6</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">SwiftUI</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">TCA</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Objective-C</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Android</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Java</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Kotlin</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">PHP</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Angular</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">React</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Node</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Docker</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Terraform</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Ansible</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">AWS</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Leadership</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name">Mentoring</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="certificates_container" style="display: none;">
+                <div class="section_title certificate_title">Certificates</div>
+                <div class="section_items certificate_items">
+
+                    <div class="certificate">
+                        <div class="title">Deep Learning Specialization</div>
+                        <div class="institution">Coursera</div>
+                        <div class="dates">2018</div>
+
+
+                    </div>
+
+                    <div class="certificate">
+                        <div class="title">Programming Cloud Services for Mobile Systems</div>
+                        <div class="institution">Coursera</div>
+                        <div class="dates">2014</div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="awards_container" style="display: none;">
+                <div class="section_title award_title">Awards</div>
+                <div class="section_items award_items">
+
+                    <div class="award">
+                        <div class="name">Beyond the Call of Duty</div>
+                        <div class="institution">Intelerad Medical System</div>
+                        <div class="year">2025</div>
+                    </div>
+
+                    <div class="award">
+                        <div class="name">Culture Creature</div>
+                        <div class="institution">Intelerad Medical Systems</div>
+                        <div class="year">2025</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="projects_container">
+                <div class="section_title project_title">Projects</div>
+                <div class="section_items project_items">
+
+                    <div class="project">
+                        <a href="https://mlfairy.com/" class="name">MLFairy</a>
+
+                        <div class="summary_items">
+
+                            <div class="summary">Encrypt and collect in-app predictions from you CoreML model. Securely
+                                deploy updates to your improved model.</div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="project">
+                        <a href="https://store.kodeco.com/products/machine-learning-by-tutorials" class="name">Machine
+                            Learning by Tutorials</a>
+
+                        <div class="summary_items">
+
+                            <div class="summary">Begin Machine Learning for Apple and iOS.</div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="project">
+                        <a href="file:///Users/vijays/Downloads/vijaysharma.ca" class="name">Code Complete</a>
+
+                        <div class="summary_items">
+
+                            <div class="summary">The ultimate resource to prepare for coding interviews.</div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="project">
+                        <a href="https://apps.apple.com/de/app/colouring-superheroes/id1511421866" class="name">Colouring Superheroes</a>
+
+                        <div class="summary_items">
+
+                            <div class="summary">Bring your favourite superheroes to life!</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <script>
+
+        </script>
+
+
+</div></body></html>

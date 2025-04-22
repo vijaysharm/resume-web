@@ -1,13 +1,8 @@
 # RESUME
 ## Summary
-This is my resume application. I decided that I dislike creating and maintaining my resumes, so I wrote this simple page which reads my resume from a json file, and then renders it to a web page. Once its been rendered, I can export it to PDF thanks to chrome's 'print-to-pdf' feature. Come tomorrow, when I no longer like the theme of my resume, I can easily just edit a CSS instead of some other weird means of styling my resume (I'm looking at you Office Word, or web-site builders that charge money). 
+This is my resume application. I decided that I dislike creating and maintaining my resumes, so I wrote this simple page which renders my resume. Once its been rendered, I can export it to PDF thanks to chrome's 'print-to-pdf' feature. Come tomorrow, when I no longer like the theme of my resume, I can easily just edit a CSS instead of some other weird means of styling my resume (I'm looking at you Office Word, or web-site builders that charge money). 
 
 ## Exporting
-You may have to start a web server (try `python -m SimpleHTTPServer 8080` on macs) and then open the page. Then command-P will open a print page in chrome and you can select the print to PDF option and save.
+Simply open the resume.html page in any browser, then command-P will open a print page in chrome and you can select the print to PDF option and save.
 
-Also, I play around with Custom margins so the resume fits on a given number of pages. The last print was using N0.46, E0.5, S0.46, O0.5
-
-## TODO
-+ Need to support footers for page information
-+ Make it look slightly better
-
+Also, I play around with Custom margins so the resume fits on a given number of pages. The last print was using 0.31 on all sides
